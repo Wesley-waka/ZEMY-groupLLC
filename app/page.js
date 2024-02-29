@@ -12,6 +12,7 @@ import { FaHandshake } from "react-icons/fa";
 import { BsGraphUpArrow } from "react-icons/bs";
 import { GiGears } from "react-icons/gi";
 import DonutChart from "@/components/DonutChart";
+import ContactUs from "@/components/ContactUs";
 // StyledButton.js
 
 
@@ -276,78 +277,22 @@ export default function Home() {
           <div className='md:w-5/6 md:my-24 my-10'>
             <h1 className="md:text-xl text-sm text-center">Subscribe to our newsletter to get Access to the latest news,updates and exclusive content 
             </h1>
-            <form className='flex flex-col'>
+            <form className='flex flex-col relative'>
               <label className="text-base ">Email</label>
               <input className='border-gray-400 p-2 rounded-lg w-72 h-9 focus:ring focus:ring-burgundy' style={{
                 borderWidth: '1px'
               }}/>
+                <button type="submit" className="text-white absolute end-2 bottom-0 right-0 bg-burgundy hover:bg-burgundy focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-burgundy dark:hover:bg-burgundy dark:focus:ring-orange-800">Send</button>
             </form>
+            {/* <div className="relative">
+                <input type="search" id="default-search" className="block sm:w-full w-scren p-4 ps-10 text-lg text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-orange-500 focus:border-orange-500  slate:border-orange-600 dark:placeholder-gray-400  dark:focus:ring-orange-500 dark:focus:border-orange-500" placeholder="Search Products" required />
+            </div> */}
           </div>
         </div>
         
       </div>
 
-      <div className="md:px-10 my-4">
-      <h2 className="text-3xl md:my-6  text-center">Contact Us</h2>
-      <div className='flex flex-col-reverse md:flex-row md:space-x-36 space-x-0 md:w-3/4 w-full mx-auto'>
-        <div className='md:w-3/5 w-full px-3 md:px-0 mx-auto'>
-          <h2 className="text-3xl my-6 text-center text-burgundy font-bold">Let&apos;s Talk</h2>
-          <h2 className='text-base  text-start'>We love your feedback,suggestion and review.We always listen</h2>
-          <form className='md:mt-10 flex flex-col space-y-7'>
-            <div className='flex flex-col space-y-3'>
-              <label>What&apos;s your Name?</label>
-              <input className='border-gray-400 p-2 rounded-lg focus:ring focus:ring-burgundy' style={{
-              borderWidth: '1px'
-            }}/>
-            </div>
-            
-            <div className='flex flex-col space-y-3'>
-              <label>What email Address can we reach you at?</label>
-              <input className='border-gray-400 p-2 rounded-lg focus:ring focus:ring-burgundy' style={{
-              borderWidth: '1px'
-            }}/>
-            </div>
-
-            <div className='flex flex-col space-y-3'>
-              <label>What phone Number can we reach you at?</label>
-              <input className='border-gray-400 p-2 rounded-lg focus:ring focus:ring-burgundy' style={{
-              borderWidth: '1px'
-            }}/>
-            </div>
-
-            <div className='flex flex-col space-y-3'>
-              <label>What would you like to know from us?Write us a message</label>
-              <input className='border-gray-400 p-2 rounded-lg hover:border-burgundy focus:ring focus:ring-burgundy' style={{
-              borderWidth: '1px'
-            }}/>
-            </div>
-
-            <button className='bg-burgundy md:w-48 w-full p-3 text-white rounded-lg border-slate-400 hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all' style={{
-              borderWidth: '1px'
-            }}>Send Message</button>
-            
-          </form>
-        </div>
-        <div className='md:w-2/3 w-full md:my-28 px-3 md:px-0 text-burgundy flex flex-col space-y-8'>
-          <Image alt="Contact us" src='/news.svg' width={400} height={400}/>
-            <div>
-              <div className='flex flex-row space-x-2 align-middle my-4'>
-                <FaLocationDot size={20}/>
-                <h6>NYC</h6>
-              </div>
-              <div className='flex flex-row space-x-2 align-middle my-4'>
-                <MdAlternateEmail size={20}/>
-                <h6>info@zemy-group.com</h6>
-              </div>
-              <div className='flex flex-row space-x-2 align-middle my-4'>
-                <IoCall size={20}/>
-                <h6>+1 (917) 68095</h6>
-              </div>
-            </div>
-        </div>
-      </div>
-        
-      </div>
+<ContactUs/>
 
     
       <div className='h-full bg-burgundy text-center text-white'>
