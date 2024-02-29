@@ -24,7 +24,8 @@ module.exports = {
         cream: '#F5F5DC',
         awhite: '#FAEBD7'
 
-      }
+      },
+      
     },
   },
   plugins: [],

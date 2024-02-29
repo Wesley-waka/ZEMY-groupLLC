@@ -33,7 +33,7 @@ const Service = () => {
     <div className={styles.section}>
       <h2 className="text-center py-2 mx-auto  font-bold ">ABOUT US</h2>
     <div className='md:ml-48 m-6'>
-      <article className='header flex flex-row space-x-8 md:my-7'>
+      <article className='header flex flex-row space-x-8 md:my-7 text-burgundy '>
         <h3>
         ZEMY Group Global LLC, <br /> 
         </h3>

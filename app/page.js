@@ -57,9 +57,9 @@ export default function Home() {
         
 
       </div>
-      <div class="hidden  absolute inset-0 h-full bg-lurgundy z-10 bg-opacity-50 md:flex justify-center items-center flex-col  space-y-7">
+      <div class="hidden  absolute inset-0 h-full bg-lurgundy z-10 bg-opacity-50 md:flex justify-center items-center flex-col  space-y-5 bottom-48">
           <p class=" text-6xl text-cream font-bold">ZEMY GROUP <span className="block text-center">LLC</span></p>
-          <button className='bg-lurgundy w-48 px-4 py-2 text-white rounded-full border-slate-100 hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all' style={{
+          <button className='bg-lurgundy w-48 px-4 py-2 my-4 text-white rounded-full border-slate-100 hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all' style={{
             borderWidth: '1px'
           }}>Learn More</button>
           
@@ -69,7 +69,7 @@ export default function Home() {
 
       {/* small Screens grid */}
 
-    <div class=" mx-auto ">
+    <div >
     <div class="flex flex-wrap -m-1 md:-m-2 md:hidden ">
         <div class="flex flex-wrap w-1/2">
             <div class="w-1/2 p-1 md:p-2">
@@ -99,8 +99,8 @@ export default function Home() {
 
             </div>
         </div>
-        <div class="flex  absolute inset-0 h-64 md:h-72 bg-lurgundy  bg-opacity-50 md:hidden justify-center items-center flex-col  space-y-7">
-          <p class=" text-2xl text-cream font-bold">ZEMY GROUP <span className="block text-center">LLC</span></p>
+        <div class="flex  absolute inset-0  md:h-72 bg-lurgundy  bg-opacity-50 md:hidden justify-center items-center flex-col h-72  " >
+          <p class=" text-2xl text-cream font-bold ">ZEMY GROUP <span className="block text-center">LLC</span></p>
           <button className='bg-lurgundy w-48 px-4 py-2 text-white rounded-full border-slate-100 hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all' style={{
             borderWidth: '1px'
           }}>Learn More</button>
@@ -173,7 +173,7 @@ export default function Home() {
       </div> */}
 
     <div>
-      <h1 className="text-center text-2xl font-semibold">Company OverView</h1>
+      <h2 className="text-center text-2xl font-semibold">Company OverView</h2>
         <DonutChart/>
     </div>
 
@@ -247,7 +247,7 @@ export default function Home() {
 
 
       {/* <Sustainability/> */}
-      <div className='flex md:flex-row flex-col space-y-2 md:space-y-0 justify-center ml-4 mx-auto'>
+      <div className='flex md:flex-row flex-col space-y-4 md:space-y-0 justify-center ml-4 mx-auto'>
       <h2 className="text-3xl my-6 text-center">Sustainability and Social Responsibility</h2> 
       <div className='w-72 text-center bg-gray-100 p-4 rounded-lg text-burgundy  border-red-200 border-t-4'>
                 <FaHandshake className="mx-auto block" size={50} />
