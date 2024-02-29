@@ -59,8 +59,9 @@ export default function Home() {
 
       </div>
       <div class="hidden  absolute inset-0 h-full bg-lurgundy z-10 bg-opacity-50 md:flex justify-center items-center flex-col  space-y-5 bottom-48">
+        <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8  left-5 absolute' />
           <p class=" text-6xl text-cream font-bold">ZEMY GROUP <span className="block text-center">LLC</span></p>
-          <button className='bg-lurgundy w-48 px-4 py-2 my-4 text-white rounded-full border-slate-100 hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all' style={{
+          <button className='bg-blue-600 w-48 px-4 py-2 my-4 text-white rounded-full border-slate-100 hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all' style={{
             borderWidth: '1px'
           }}>Learn More</button>
           
@@ -101,8 +102,9 @@ export default function Home() {
             </div>
         </div>
         <div class="flex  absolute inset-0  md:h-72 bg-lurgundy  bg-opacity-50 md:hidden justify-center items-center flex-col h-72  " >
+        <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8  left-5 absolute w-16' />
           <p class=" text-2xl text-cream font-bold ">ZEMY GROUP <span className="block text-center">LLC</span></p>
-          <button className='bg-lurgundy w-48 px-4 py-2 text-white rounded-full border-slate-100 hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all' style={{
+          <button className='bg-blue-600 w-48 px-4 py-2 text-white rounded-full border-slate-100 hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all' style={{
             borderWidth: '1px'
           }}>Learn More</button>
           
@@ -133,45 +135,7 @@ export default function Home() {
 
 
       <div id={styles.section_features} className='md:mt-96  flex flex-col mx-auto'>
-        {/* Company Overview */}
-{/* <div className='my-10  '>
-        <h1 className="text-center">Company OverView</h1>
-        <div id={styles.tree} className='md:ml-6 my-16'>
-            <ul>
-              <li>
-                <a href="#">ZEMY GROUP GLOBAL LLC</a>
-                <ul>
-                  <li>
-                    <a href="#">ZEMY GROUP GLOBAL LIMITED</a>
-                    <ul>
-                      <li>
-                        <a href="#">Elite Treats Bully Stick</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">KSK International LLC</a>
-                  </li>
-                  <li>
-                    <a href="#">JUST ASK LLC</a>
-                  </li>
-        
-        
-                  <li>
-                    <a href="#">Medlink World LLC</a>
-                  </li><li>
-                    <a href="#">Mysha Khan LLC</a>
-                  </li><li>
-                    <a href="#">Zeake Khan LLC</a>
-                  </li><li>
-                    <a href="#">Sierra Global Health LLC</a>
-                  </li>
-        
-                </ul>
-              </li>
-            </ul>
-          </div>
-      </div> */}
+
 
     <div>
         <DonutChart/>
@@ -276,14 +240,14 @@ export default function Home() {
         <div className="flex md:flex-row flex-col md:space-x-20 md:w-3/4 w-full mx-auto">
           <Image src='/mail.svg' alt='news_letter' className='w-48 h-30 mx-auto' height={350} width={350}/>
           <div className='md:w-5/6 md:my-24 my-10'>
-            <h1 className="md:text-xl text-sm text-center">Subscribe to our newsletter to get Access to the latest news,updates and exclusive content 
+            <h1 className="md:text-xl text-sm text-center md:text-start">Subscribe to our newsletter to get Access to the latest news,updates and exclusive content 
             </h1>
             <form className='flex flex-col relative'>
               <label className="text-base ">Email</label>
-              <input className='border-gray-400 p-2 rounded-lg w-72 h-9 focus:ring focus:ring-burgundy' style={{
+              <input className='border-gray-400 p-2 rounded-lg sm:w-72 w-full h-9 focus:ring focus:ring-burgundy' style={{
                 borderWidth: '1px'
               }}/>
-                <button type="submit" className="text-white absolute end-2 bottom-0 right-0 bg-burgundy hover:bg-burgundy focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-burgundy dark:hover:bg-burgundy dark:focus:ring-orange-800">Send</button>
+                <button type="submit" className="text-white absolute end-2 bottom-0 right-0 sm:right-96 bg-burgundy hover:bg-burgundy focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-burgundy dark:hover:bg-burgundy dark:focus:ring-orange-800">Send</button>
             </form>
             {/* <div className="relative">
                 <input type="search" id="default-search" className="block sm:w-full w-scren p-4 ps-10 text-lg text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-orange-500 focus:border-orange-500  slate:border-orange-600 dark:placeholder-gray-400  dark:focus:ring-orange-500 dark:focus:border-orange-500" placeholder="Search Products" required />

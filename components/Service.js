@@ -35,13 +35,13 @@ const Service = () => {
     <div className='md:ml-48 sm:m-6 mx-4 xs:mt-10'>
       <article className='header flex flex-row space-x-8 md:my-7 text-burgundy xs:my-4'>
         <h3>
-        ZEMY Group Global LLC, <br /> 
+        ZEMY Group  LLC, <br /> 
         </h3>
         <p className='md:w-5/12'>
         With a rich portfolio enveloping healthcare, daily commodities, real estate, and more, we are the nexus of industry-leading subsidiaries making a global impact.
         </p>
       </article>
-      <div className={` flex md:flex-row flex-col flex-wrap md:space-x-6 space-y-6 w-full md:w-0 mx-auto`}>
+      <div className={` flex md:flex-row flex-col flex-wrap md:space-x-6 space-y-6 w-full  mx-auto`}>
         {services.map((service) => {
           const { id, icon, title, text } = service
           return (

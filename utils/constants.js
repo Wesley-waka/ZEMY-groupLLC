@@ -23,7 +23,7 @@ export const services = [
     icon: <GiCompass />,
     title: 'mission',
     text:
-      'Our mission is to create value for our stakeholders through pioneering solutions, customer-centric service, and sustainable business practices.',
+      'Our mission is to create value for our stakeholders through pioneering solutions and sustainable business practices.',
   },
   {
     id: 2,
