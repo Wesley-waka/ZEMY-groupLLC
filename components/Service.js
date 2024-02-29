@@ -31,24 +31,24 @@ const ServiceStyled = styled.article`
 const Service = () => {
   return (
     <div className={styles.section}>
-      <h6 className="text-center py-2 mx-auto text-burgundy font-extrabold text-2xl">ABOUT US</h6>
-    <div className={styles.sectionCenter}>
-      <article className='header'>
+      <h2 className="text-center py-2 mx-auto  font-bold ">ABOUT US</h2>
+    <div className='md:ml-48 m-6'>
+      <article className='header flex flex-row space-x-8 md:my-7'>
         <h3>
-          custom furniture <br /> built only for you
+        ZEMY Group Global LLC, <br /> 
         </h3>
-        <p>
-        Immerse yourself in the art of relaxation with our exclusive range of handcrafted furniture. 
+        <p className='md:w-5/12'>
+        With a rich portfolio enveloping healthcare, daily commodities, real estate, and more, we are the nexus of industry-leading subsidiaries making a global impact.
         </p>
       </article>
-      <div className={styles.servicesCenter}>
+      <div className={` flex md:flex-row flex-col flex-wrap md:space-x-6 space-y-6 w-full md:w-0 mx-auto`}>
         {services.map((service) => {
           const { id, icon, title, text } = service
           return (
             <article className={styles.service} key={id}>
               <span className={styles.icon}>{icon}</span>
-              <h4>{title}</h4>
-              <p>{text}</p>
+              <h4 className='text-burgundy font-semibold'>{title}</h4>
+              <p className='text-burgundy'>{text}</p>
             </article>
           )
         })}

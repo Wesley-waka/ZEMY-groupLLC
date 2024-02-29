@@ -20,7 +20,9 @@ module.exports = {
         cream: '#006400',
         beige: '#F5F5DC',
         navy: '#000080',
-        primary2: 'hsl(22, 28%, 29%)'
+        primary2: 'hsl(22, 28%, 29%)',
+        cream: '#F5F5DC',
+        awhite: '#FAEBD7'
 
       }
     },

@@ -2,51 +2,38 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '@/styles/UseCase.module.scss'
+import { FaHandshake } from "react-icons/fa";
+import { BsGraphUpArrow } from "react-icons/bs";
+import { GiGears } from "react-icons/gi";
 
 const Sustainability = () => {
   return (
     <div>
-      <div id={styles.section_use_cases}>
+      <div className='mx-auto' >
           <h2 className="text-3xl my-6 text-center">Sustainability and Social Responsibility</h2> 
-          <div className="container mx-auto px-4">
-            <div className="flex flex-wrap flex-row space-x-32 ">
-              <div className='text-center bg-gray-100 p-4 rounded-lg text-green-900 half-border-bottom-left half-border-top-right border-red-200 border-t-4'>
-                  <Image
-                  src="/chat.svg"
-                  alt="Icon image related to the use case"
-                  height={75}
-                  width={75}
-                  className='mx-auto'
-                />
+          <div className=" py-6 mx-auto ">
+
+            <div className="flex md:flex-wrap md:flex-row flex-col space-x-24 md:ml-36 justify-center">
+              <div className='w-72 text-center bg-gray-100 p-4 rounded-lg text-burgundy  border-red-200 border-t-4'>
+                <FaHandshake className="mx-auto block" size={50} />
                 <div className='mt-4'>
-                  <h6>Chat with a friend asynchronously</h6>
+                  <h6>At ZEMY Group LLC actively supports community initiatives, fosters inclusive growth, and operates with the utmost integrity to make a meaningful difference in society.</h6>
                 </div>
               </div>
 
-              <div className='text-center bg-gray-100 p-4 rounded-lg text-green-900 half-border-top-left half-border-bottom-right border-red-200 border-b-4'>
-                  <Image
-                  src="/chat.svg"
-                  alt="Icon image related to the use case"
-                  height={75}
-                  width={75}
-                  className='mx-auto'
-                />
+              <div className='w-72 text-center bg-gray-100 p-4 rounded-lg text-burgundy  border-red-200 border-t-4'>
+                <BsGraphUpArrow className="mx-auto block" size={50}/>
                 <div className='mt-4'>
-                  <h6>Chat with a friend asynchronously</h6>
+                  <h6>At ZEMY Group LLC. We meticulously measure our impact and continuously innovate to reduce our carbon footprint, championing a greener economy.</h6>
                 </div>
               </div>
 
 
-              <div className='text-center bg-gray-100 p-4 rounded-lg  half-border-bottom-left half-border-top-right border-red-200 border-t-4'>
-                  <Image
-                  src="/chat.svg"
-                  alt="Icon image related to the use case"
-                  height={75}
-                  width={75}
-                  className='mx-auto'
-                />
+              <div className='w-72 text-center bg-gray-100 p-4 rounded-lg   text-burgundy border-red-200 border-t-4'>
+                <GiGears className="mx-auto block" size={50}/>
+
                 <div className='mt-4'>
-                  <h6>Chat with a friend asynchronously</h6>
+                  <h6>Through strategic partnerships and collaborative efforts, ZEMY Group LLC is on a mission to catalyze sustainable development and empower communities,</h6>
                 </div>
               </div>
 

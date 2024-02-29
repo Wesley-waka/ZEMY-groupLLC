@@ -23,14 +23,14 @@ export const services = [
     icon: <GiCompass />,
     title: 'mission',
     text:
-      'Transform your living space with our sleek and contemporary furniture pieces, designed to elevate both style and comfort.',
+      'Our mission is to create value for our stakeholders through pioneering solutions, customer-centric service, and sustainable business practices.',
   },
   {
     id: 2,
     icon: <GiDiamondHard />,
     title: 'vision',
     text:
-      'Discover the art of relaxation with our handcrafted, luxurious sofas that seamlessly blend timeless design with modern sophistication.',
+    'Our vision is to transform everyday challenges into opportunities for growth by leveraging our wide-ranging expertise.',
   },
   {
     id: 3,
