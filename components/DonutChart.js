@@ -35,19 +35,28 @@ const centerTextPlugin = {
 };
 
 const data = {
-  labels: ['ZEMY Group Global Ltd:', 'Subsidiary 2', 'Subsidiary 3','Subsidiary 4','Subsidiary 5','Subsidiary 6','Subsidiary 7'], // Add all subsidiary names here
-  description:['From the heart of Africa to your home, ZEMY Group Global Ltd is dedicated to crafting 100% organic pet treats.','From the heart of Africa to your home, ZEMY Group Global Ltd is dedicated to crafting 100% organic pet treats.','From the heart of Africa to your home, ZEMY Group Global Ltd is dedicated to crafting 100% organic pet treats.'],
+  labels: ['Medlink World LLC',
+  'Medlink LLC USA',
+  'JUST ASK LLC',
+   'KSK International LLC',
+   'Mysha Khan LLC',
+   'Zeake Khan LLC', 
+   'Sierra Global Health LLC',
+   'ZEMY Group Global LTD'
+  ], // Add all subsidiary names here
   datasets: [
     {
       label: 'Subsidiaries',
-      data: [200, 50, 100,60,60,70,50], // Add respective data points here
+      data: [100, 50, 60,40,40,40,40,20], // Add respective data points here
       backgroundColor: [
         'rgb(255, 99, 132)',
-        'rgb(54, 162, 235)',
-        'rgb(255, 205, 86)',
-        'rgb(255, 205, 86)',
-        'rgb(255, 205, 86)',
-        'rgb(255, 205, 86)'
+        '#87CEEB',
+        '#D2B48C',
+        '#5A3A22',
+        '#800080',
+        '#D3D3D3',
+        '#000080',
+        '#A7A938',
 
         // Add more colors for each subsidiary
       ],
@@ -68,10 +77,18 @@ const options = {
           return data.labels[tooltipItem[0].dataIndex];
         },
         label: function(tooltipItem) {
-          // This would be the brief description you want to show
-          let description = ['From the heart of Africa to your home, ZEMY Group Global Ltd is dedicated to crafting 100% organic pet treats.','From the heart of Africa to your home, ZEMY Group Global Ltd is dedicated to crafting 100% organic pet treats.','From the heart of Africa to your home, ZEMY Group Global Ltd is dedicated to crafting 100% organic pet treats.']; // Fetch the correct description based on dataIndex
-          // console.log(tooltipItem[0].dataIndex)
-          return description[0];
+          // You'll assign each description to the respective data index
+          const descriptions = [
+            'A healthcare and CRO consulting firm which champions itself in clinical data  generation for medical devices that needs FDA registration.',
+            'A multinational healthcare consultancy firm dedicated to the management of profitable health services through the use of innovative human and technological resources,',
+            'Just ASK deals with consulting services in health foods and Aviation.',
+            'A leading supplier of high quality home and office furniture in USA , we are a pioneer in the industry',
+            'A company dedicated to residential purchase and management of rental properties.',
+            'A company completely dedicated to purchase and management of commercial Real Estate in NY tri state area.',
+            'A company dedicated to production of CDMO, in generic pharma space.',
+            'A company dedicated to manufacturing of 100% organic pet treat from Africa.'
+          ];
+          return descriptions[tooltipItem.dataIndex] || '';
         }
       }
     },
@@ -84,7 +101,9 @@ const options = {
 };
 
 const DonutChart = () => (
-  <div className="h-64 w-full">
+  <div className="h-72 w-full py-4 my-8">
+      <h2 className="text-center  mx-auto  font-semibold ">Company OverView</h2>
+
     <Doughnut data={data} options={options} plugins={[centerTextPlugin]}/>
   </div>
 );

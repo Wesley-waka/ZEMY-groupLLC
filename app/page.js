@@ -13,6 +13,7 @@ import { BsGraphUpArrow } from "react-icons/bs";
 import { GiGears } from "react-icons/gi";
 import DonutChart from "@/components/DonutChart";
 import ContactUs from "@/components/ContactUs";
+import ManufactureButton from "@/components/ManufactureButton";
 // StyledButton.js
 
 
@@ -119,7 +120,7 @@ export default function Home() {
       {/* About Us section*/}
 
 
-      <div className="z-50 h-max absolute md:top-full w-full md:pt-4">
+      <div className=" h-max absolute md:top-full w-full md:pt-4">
         <Service/>
       </div>
 
@@ -173,12 +174,11 @@ export default function Home() {
       </div> */}
 
     <div>
-      <h2 className="text-center text-2xl font-semibold">Company OverView</h2>
         <DonutChart/>
     </div>
 
 {/* Company Overview */}
-        <div>
+        <div className='mt-4'>
           <h2 className="text-3xl sm:text-2xl font-semibold mx-auto my-8 text-center">Why ZEMY Group LLC is Unique</h2>
           
             <div className="container mx-auto px-4 py-4">
@@ -196,8 +196,9 @@ export default function Home() {
           
                 <div className='w-full md:w-1/3 md:ml-4 flex items-center'>
           <div>
-            <h3>Manufacturing</h3>
-            <p>Our company takes pride in sustainably sourcing the highest quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States</p>
+            <h3 className='sm:text-start text-center'>Manufacturing</h3>
+            <p className='sm:text-start text-center'>Our company takes pride in sustainably sourcing the highest quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States</p>
+            <ManufactureButton/>
           </div>
                 </div>
               </div>
@@ -215,8 +216,8 @@ export default function Home() {
                 </div>
                 <div className='w-full md:w-1/3 flex items-center order-first md:order-none'>
           <div>
-            <h3>Pharmaceuticals & Health Products</h3>
-            <p>Sierra Global Health LLC embodies innovation in the generic pharma space, with a manufacturing presence spanning from the Czech Republic to India. Our commitment to quality positions us as a powerhouse ready to enhance North America&apos;s pharmaceutical landscape.</p>
+            <h3 className='sm:text-start text-center'>Pharmaceuticals & Health Products</h3>
+            <p className='sm:text-start text-center'>Sierra Global Health LLC embodies innovation in the generic pharma space, with a manufacturing presence spanning from the Czech Republic to India. Our commitment to quality positions us as a powerhouse ready to enhance North America&apos;s pharmaceutical landscape.</p>
           </div>
                 </div>
               </div>
@@ -235,8 +236,8 @@ export default function Home() {
           
                 <div className='w-full md:w-1/3 md:ml-4 flex items-center'>
           <div>
-            <h3>Real Estate Initiatives</h3>
-            <p>Unite the comfort of home with the pulse of industry through Mysha Khan LLC and Zeake Khan LLC, where we expertly secure and manage residential investments to prosper your sanctuary,  ensuring growth and stability for our discerning clientele</p>
+            <h3 className='sm:text-start text-center'>Real Estate Initiatives</h3>
+            <p className='sm:text-start text-center'>Unite the comfort of home with the pulse of industry through Mysha Khan LLC and Zeake Khan LLC, where we expertly secure and manage residential investments to prosper your sanctuary,  ensuring growth and stability for our discerning clientele</p>
           </div>
                 </div>
               </div>
@@ -246,8 +247,8 @@ export default function Home() {
   </div>
 
 
-      {/* <Sustainability/> */}
-      <div className='flex md:flex-row flex-col space-y-4 md:space-y-0 justify-center ml-4 mx-auto'>
+      <Sustainability/>
+      {/* <div className='flex md:flex-row flex-col space-y-4 md:space-y-0 justify-center ml-4 mx-auto'>
       <h2 className="text-3xl my-6 text-center">Sustainability and Social Responsibility</h2> 
       <div className='w-72 text-center bg-gray-100 p-4 rounded-lg text-burgundy  border-red-200 border-t-4'>
                 <FaHandshake className="mx-auto block" size={50} />
@@ -268,10 +269,10 @@ export default function Home() {
                   <h6>Through strategic partnerships and collaborative efforts, ZEMY Group LLC is on a mission to catalyze sustainable development and empower communities,</h6>
                 </div>
               </div>
-      </div>
+      </div> */}
       
       <div className="md:px-10 px-4 my-8 flex flex-col  space-y-4 ">
-        <h2 className="text-3xl my-6 text-center">Join Us</h2>
+        <h2 className="text-center text-2xl font-semibold">Join Us</h2>
         <div className="flex md:flex-row flex-col md:space-x-20 md:w-3/4 w-full mx-auto">
           <Image src='/mail.svg' alt='news_letter' className='w-48 h-30 mx-auto' height={350} width={350}/>
           <div className='md:w-5/6 md:my-24 my-10'>
@@ -302,7 +303,7 @@ export default function Home() {
             <h5>News</h5> <span>|</span>
             <h5>Contact</h5>
           </div>
-          <h6>Copyright © {current_year}, Zemy Group Global LLC LLC. All Rights Reserved.</h6>
+          <h6>Copyright © {current_year}, Zemy Group  LLC. All Rights Reserved.</h6>
 
 
 

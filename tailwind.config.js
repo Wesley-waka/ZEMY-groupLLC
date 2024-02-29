@@ -25,7 +25,9 @@ module.exports = {
         awhite: '#FAEBD7'
 
       },
-      
+      screens: {
+        'xs': '320px',
+      }
     },
   },
   plugins: [],

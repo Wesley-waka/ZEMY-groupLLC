@@ -8,7 +8,7 @@ const ContactUs = () => {
 
   return (
     <div className="md:px-10 my-4">
-    <h2 className="text-3xl md:my-6  text-center">Contact Us</h2>
+    <h2 className="text-center text-2xl font-semibold">Contact Us</h2>
     <div className='flex flex-col-reverse md:flex-row md:space-x-36 space-x-0 md:w-3/4 w-full mx-auto'>
       <div className='md:w-3/5 w-full px-3 md:px-0 mx-auto'>
         <h2 className="text-3xl my-6 text-center text-burgundy font-bold">Let&apos;s Talk</h2>
