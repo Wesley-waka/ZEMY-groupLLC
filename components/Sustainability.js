@@ -9,11 +9,11 @@ import { GiGears } from "react-icons/gi";
 const Sustainability = () => {
   return (
     <div>
-      <div className='mx-auto' >
+      <div className=' w-32' >
           <h2 className="text-3xl my-6 text-center">Sustainability and Social Responsibility</h2> 
-          <div className=" py-6 mx-auto ">
+          <div className=" py-6 ">
 
-            <div className="flex md:flex-wrap md:flex-row flex-col space-x-24 md:ml-36 justify-center">
+            <div className="flex md:flex-wrap md:flex-row flex-col  space-x-24 md:ml-36 justify-center ">
               <div className='w-72 text-center bg-gray-100 p-4 rounded-lg text-burgundy  border-red-200 border-t-4'>
                 <FaHandshake className="mx-auto block" size={50} />
                 <div className='mt-4'>

@@ -11,6 +11,7 @@ import { IoCall } from "react-icons/io5";
 import { FaHandshake } from "react-icons/fa";
 import { BsGraphUpArrow } from "react-icons/bs";
 import { GiGears } from "react-icons/gi";
+import DonutChart from "@/components/DonutChart";
 // StyledButton.js
 
 
@@ -107,6 +108,9 @@ export default function Home() {
     </div>
 
 
+
+
+
     
 
       {/* small Screens grid */}
@@ -126,7 +130,7 @@ export default function Home() {
 
 
 
-      <div id={styles.section_features} className='md:mt-96 mt-96 flex flex-col mx-auto'>
+      <div id={styles.section_features} className='md:mt-96  flex flex-col mx-auto'>
         {/* Company Overview */}
 {/* <div className='my-10  '>
         <h1 className="text-center">Company OverView</h1>
@@ -167,9 +171,14 @@ export default function Home() {
           </div>
       </div> */}
 
+    <div>
+      <h1 className="text-center text-2xl font-semibold">Company OverView</h1>
+        <DonutChart/>
+    </div>
+
 {/* Company Overview */}
         <div>
-          <h2 className="text-3xl mx-auto my-8 text-center">Why ZEMY Group LLC is Unique</h2>
+          <h2 className="text-3xl sm:text-2xl font-semibold mx-auto my-8 text-center">Why ZEMY Group LLC is Unique</h2>
           
             <div className="container mx-auto px-4 py-4">
               <div className="flex justify-center md:flex-row flex-col">
@@ -263,13 +272,13 @@ export default function Home() {
       <div className="md:px-10 px-4 my-8 flex flex-col  space-y-4 ">
         <h2 className="text-3xl my-6 text-center">Join Us</h2>
         <div className="flex md:flex-row flex-col md:space-x-20 md:w-3/4 w-full mx-auto">
-          <Image src='/mail.svg' alt='news_letter' height={350} width={350}/>
+          <Image src='/mail.svg' alt='news_letter' className='w-48 h-30 mx-auto' height={350} width={350}/>
           <div className='md:w-5/6 md:my-24 my-10'>
-            <h1 className="md:text-xl text-sm">Subscribe to our newsletter to get Access to the latest news,updates and exclusive content 
+            <h1 className="md:text-xl text-sm text-center">Subscribe to our newsletter to get Access to the latest news,updates and exclusive content 
             </h1>
             <form className='flex flex-col'>
               <label className="text-base ">Email</label>
-              <input className='border-gray-400 p-2 rounded-lg w-72 h-9' style={{
+              <input className='border-gray-400 p-2 rounded-lg w-72 h-9 focus:ring focus:ring-burgundy' style={{
                 borderWidth: '1px'
               }}/>
             </form>
@@ -287,28 +296,28 @@ export default function Home() {
           <form className='md:mt-10 flex flex-col space-y-7'>
             <div className='flex flex-col space-y-3'>
               <label>What&apos;s your Name?</label>
-              <input className='border-gray-400 p-2 rounded-lg' style={{
+              <input className='border-gray-400 p-2 rounded-lg focus:ring focus:ring-burgundy' style={{
               borderWidth: '1px'
             }}/>
             </div>
             
             <div className='flex flex-col space-y-3'>
               <label>What email Address can we reach you at?</label>
-              <input className='border-gray-400 p-2 rounded-lg' style={{
+              <input className='border-gray-400 p-2 rounded-lg focus:ring focus:ring-burgundy' style={{
               borderWidth: '1px'
             }}/>
             </div>
 
             <div className='flex flex-col space-y-3'>
               <label>What phone Number can we reach you at?</label>
-              <input className='border-gray-400 p-2 rounded-lg' style={{
+              <input className='border-gray-400 p-2 rounded-lg focus:ring focus:ring-burgundy' style={{
               borderWidth: '1px'
             }}/>
             </div>
 
             <div className='flex flex-col space-y-3'>
               <label>What would you like to know from us?Write us a message</label>
-              <input className='border-gray-400 p-2 rounded-lg' style={{
+              <input className='border-gray-400 p-2 rounded-lg hover:border-burgundy focus:ring focus:ring-burgundy' style={{
               borderWidth: '1px'
             }}/>
             </div>
@@ -319,7 +328,7 @@ export default function Home() {
             
           </form>
         </div>
-        <div className='md:w-2/3 w-full my-28 px-3 md:px-0 text-burgundy flex flex-col space-y-8'>
+        <div className='md:w-2/3 w-full md:my-28 px-3 md:px-0 text-burgundy flex flex-col space-y-8'>
           <Image alt="Contact us" src='/news.svg' width={400} height={400}/>
             <div>
               <div className='flex flex-row space-x-2 align-middle my-4'>
