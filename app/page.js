@@ -1,30 +1,19 @@
 import Button from "@/components/Button";
 import Service from "@/components/Service";
-import UseCase from "@/components/UseCase";
-import { services } from "@/utils/constants";
 import Image from "next/image";
 import styles from '@/styles/Home.module.scss'
 import Sustainability from "@/components/Sustainability";
-import { FaLocationDot } from "react-icons/fa6";
-import { MdAlternateEmail } from "react-icons/md";
-import { IoCall } from "react-icons/io5";
-import { FaHandshake } from "react-icons/fa";
-import { BsGraphUpArrow } from "react-icons/bs";
-import { GiGears } from "react-icons/gi";
 import DonutChart from "@/components/DonutChart";
 import ContactUs from "@/components/ContactUs";
 import ManufactureButton from "@/components/ManufactureButton";
-// StyledButton.js
+import Footer from "@/components/Footer";
 
-
-// Creating a styled button component with styled-components
 
 export default function Home() {
-  const current_year = new Date().getFullYear();
   return (
     <div>
       {/* large Screens grid */}
-      <div class="hidden md:grid grid-cols-5 z-10 gap-1 p-0  relative">
+      <div class="hidden lg:grid grid-cols-5 z-10 gap-1 p-0  relative">
 
         <div class="col-span-2 md:col-span-2  ">
           <Image src="/IMG_8.png" height={800} width={800} alt="Description" class="w-full h-full object-cover rounded"/>
@@ -71,7 +60,7 @@ export default function Home() {
       {/* small Screens grid */}
 
     <div >
-    <div class="flex flex-wrap -m-1 md:-m-2 md:hidden ">
+    <div class="flex flex-wrap -m-1 lg:-m-2 lg:hidden ">
         <div class="flex flex-wrap w-1/2">
             <div class="w-1/2 p-1 md:p-2">
         <Image src="/IMG_8.png" height={200} width={200} alt="Description" class="w-full h-full object-cover rounded"/>
@@ -100,36 +89,25 @@ export default function Home() {
 
             </div>
         </div>
-        <div class="flex  absolute inset-0  md:h-72 bg-lurgundy  bg-opacity-50 md:hidden justify-center items-center flex-col h-72  " >
+        <div class="flex  absolute inset-0  sm:h-full bg-lurgundy  bg-opacity-50 md:hidden justify-center items-center flex-col h-72  " >
         <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8  left-5 absolute w-16' />
           <p class=" text-2xl text-cream font-bold ">ZEMY GROUP <span className="block text-center">LLC</span></p>
           <Button/>
           
       </div>
     </div>
-
-
-
-
-
-    
-
       {/* small Screens grid */}
 
       {/* About Us section*/}
 
 
-      <div className=" h-max absolute md:top-full w-full md:pt-4" id='about_us'>
+      <div className=" h-max absolute sm:top-full w-full sm:pt-4" id='about_us'>
         <Service/>
       </div>
 
       {/* About Us section*/}
 
       
-
-
-
-
 
       <div id={styles.section_features} className='md:mt-96  flex flex-col mx-auto'>
 
@@ -157,8 +135,8 @@ export default function Home() {
           
                 <div className='w-full md:w-1/3 md:ml-4 flex items-center'>
           <div>
-            <h3 className='sm:text-start text-center'>Manufacturing</h3>
-            <p className='sm:text-start text-center'>Our company takes pride in sustainably sourcing the highest quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States</p>
+            <h3 className='sm:text-start text-center font-light'>Manufacturing</h3>
+            <p className='sm:text-start text-center font-extralight'>Our company takes pride in sustainably sourcing the highest quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States</p>
             <ManufactureButton/>
           </div>
                 </div>
@@ -177,8 +155,8 @@ export default function Home() {
                 </div>
                 <div className='w-full md:w-1/3 flex items-center order-first md:order-none'>
           <div>
-            <h3 className='sm:text-start text-center'>Pharmaceuticals & Health Products</h3>
-            <p className='sm:text-start text-center'>Sierra Global Health LLC embodies innovation in the generic pharma space, with a manufacturing presence spanning from the Czech Republic to India. Our commitment to quality positions us as a powerhouse ready to enhance North America&apos;s pharmaceutical landscape.</p>
+            <h3 className='sm:text-start text-center font-light'>Pharmaceuticals & Health Products</h3>
+            <p className='sm:text-start text-center font-extralight'>Sierra Global Health LLC embodies innovation in the generic pharma space, with a manufacturing presence spanning from the Czech Republic to India. Our commitment to quality positions us as a powerhouse ready to enhance North America&apos;s pharmaceutical landscape.</p>
           </div>
                 </div>
               </div>
@@ -197,8 +175,8 @@ export default function Home() {
           
                 <div className='w-full md:w-1/3 md:ml-4 flex items-center'>
           <div>
-            <h3 className='sm:text-start text-center'>Real Estate Initiatives</h3>
-            <p className='sm:text-start text-center'>Unite the comfort of home with the pulse of industry through Mysha Khan LLC and Zeake Khan LLC, where we expertly secure and manage residential investments to prosper your sanctuary,  ensuring growth and stability for our discerning clientele</p>
+            <h3 className='sm:text-start text-center font-light'>Real Estate Initiatives</h3>
+            <p className='sm:text-start text-center font-extralight'>Unite the comfort of home with the pulse of industry through Mysha Khan LLC and Zeake Khan LLC, where we expertly secure and manage residential investments to prosper your sanctuary,  ensuring growth and stability for our discerning clientele</p>
           </div>
                 </div>
               </div>
@@ -232,7 +210,7 @@ export default function Home() {
               </div>
       </div> */}
       
-      <div className="md:px-10 px-4 my-8 flex flex-col  space-y-4 ">
+      <div className="md:px-10 px-4 my-8 flex flex-col  space-y-4 " id='news'>
         <h2 className="text-center text-2xl sm:text-3xl font-semibold">Join Us</h2>
         <div className="flex md:flex-row flex-col md:space-x-20 md:w-3/4 w-full mx-auto">
           <Image src='/mail.svg' alt='news_letter' className='w-48 h-30 mx-auto' height={350} width={350}/>
@@ -246,31 +224,18 @@ export default function Home() {
               }}/>
                 <button type="submit" className="text-white absolute end-2 bottom-0 right-0 sm:right-96 bg-burgundy hover:bg-burgundy focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-burgundy dark:hover:bg-burgundy dark:focus:ring-orange-800">Send</button>
             </form>
-            {/* <div className="relative">
-                <input type="search" id="default-search" className="block sm:w-full w-scren p-4 ps-10 text-lg text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-orange-500 focus:border-orange-500  slate:border-orange-600 dark:placeholder-gray-400  dark:focus:ring-orange-500 dark:focus:border-orange-500" placeholder="Search Products" required />
-            </div> */}
+
           </div>
         </div>
         
       </div>
 
-<ContactUs/>
+    <div id="contact_us">
+      <ContactUs/>
+    </div>
 
     
-      <div className='h-full bg-burgundy text-center text-white'>
-        <div className='flex flex-col space-y-2'>
-          <div className='flex mx-auto mt-2'>
-            <h5>About Us</h5> <span>|</span>
-            <h5>News</h5> <span>|</span>
-            <h5>Contact</h5>
-          </div>
-          <h6>Copyright © {current_year}, Zemy Group  LLC. All Rights Reserved.</h6>
-
-
-
-        </div>
-
-      </div>
+    <Footer/>
 
     </div>
     </div>

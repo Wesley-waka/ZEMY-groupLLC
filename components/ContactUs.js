@@ -65,7 +65,7 @@ const ContactUs = () => {
         </form>
       </div>
       <div className='md:w-2/3 w-full md:my-28 px-3 md:px-0 text-burgundy flex flex-col space-y-8'>
-        <Image alt="Contact us" src='/news.svg' width={400} height={400}/>
+        <Image alt="Contact us" src='/news.svg'  width={400} height={400}/>
           <div>
             <div className='flex flex-row space-x-2 align-middle my-4'>
               <FaLocationDot size={20}/>

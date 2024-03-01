@@ -10,10 +10,10 @@ const Sustainability = () => {
   return (
     <div>
       <div className=' ' >
-          <h2 className="text-center text-2xl sm:text-3xl font-semibold sm:my-6">Sustainability and Social Responsibility</h2> 
+          <h2 className="text-center text-2xl sm:text-3xl font-semibold sm:my-6">Sustainability & Social Responsibility</h2> 
           <div className=" py-6 w-full">
 
-            <div className="flex md:flex-wrap md:flex-row flex-col space-y-4 md:space-y-0 md:space-x-24   mx-auto justify-center">
+            <div className="flex md:flex-wrap md:flex-row flex-col space-y-4 md:space-y-2 lg:space-y-0 md:space-x-24  lg:space-x-24   mx-auto justify-center">
               <div className='w-56 mx-auto md:mx-0 text-center bg-gray-100 p-4 rounded-lg text-burgundy  border-red-200 border-t-4'>
                 <FaHandshake className="mx-auto block" size={50} />
                 <div className='mt-4'>

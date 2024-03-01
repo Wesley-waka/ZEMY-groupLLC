@@ -15,6 +15,11 @@ Variables
 ===============
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 :root {
   /* dark shades of primary color*/
   --burgundy-color: #800020; /* Burgundy Color */
@@ -215,4 +220,17 @@ p {
 }
 .page {
   min-height: calc(100vh - (20vh + 10rem));
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d1cece;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #800020;
+  border-radius: 10px;
 }

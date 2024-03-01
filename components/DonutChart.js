@@ -73,32 +73,32 @@ const options = {
         label: function(tooltipItem) {
 
           const descriptions = [
-            'A healthcare and CRO consulting firm which champions itself in clinical data  generation for medical devices that needs FDA registration.',
-            'A multinational healthcare consultancy firm dedicated to the management of profitable health services through the use of innovative human and technological resources,',
+            'A healthcare and CRO consulting firm   ',
+            'A multinational healthcare consultancy firm ',
             'Just ASK deals with consulting services in health foods and Aviation.',
-            'A leading supplier of high quality home and office furniture in USA , we are a pioneer in the industry',
-            'A company dedicated to residential purchase and management of rental properties.',
-            'A company completely dedicated to purchase and management of commercial Real Estate in NY tri state area.',
-            'A company dedicated to production of CDMO, in generic pharma space.',
-            'A company dedicated to manufacturing of 100% organic pet treat from Africa.'
+            'A leading supplier of quality home and office furniture in USA ',
+            'A company dedicated to purchase of rental properties.',
+            'A company completely dedicated to Real Estate in NY .',
+            'A company dedicated to production of generic pharma space.',
+            'A manufacturing company organic pet treat from Africa.'
           ];
           return descriptions[tooltipItem.dataIndex] || '';
         }
       }
     },
     legend: {
-      display: true, // Optional: hide the legend if you want to display it elsewhere
+      display: true, 
     }
   },
-  // This will maintain the aspect ratio of your chart and might need to be adjusted based on your design requirements.
   maintainAspectRatio: false
 };
 
 const DonutChart = () => (
   <div className="h-72 w-full py-4 my-8">
       <h2 className="text-center  mx-auto  font-semibold">Company OverView</h2>
-
-    <Doughnut data={data} options={options} />
+    {/* <div className='mt-2'> */}
+      <Doughnut data={data} options={options} />
+    {/* </div> */}
     {/* <Doughnut data={data} options={options} plugins={[centerTextPlugin]}/> */}
   </div>
 );
