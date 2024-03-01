@@ -40,7 +40,7 @@ export default function Home() {
 
 
         <div class="col-span-2 md:col-span-1  ">
-          <Image src="/IMG_4.jpg" height={200} width={200} alt="Description" class="w-full h-full object-cover rounded"/>
+          <Image src="/IMG_4.jpg" height={400} width={400} alt="Description" class="w-full h-full object-cover rounded"/>
         </div>
 
         <div class="col-span-2 md:col-span-2  ">
@@ -61,9 +61,8 @@ export default function Home() {
       <div class="hidden  absolute inset-0 h-full bg-lurgundy z-10 bg-opacity-50 md:flex justify-center items-center flex-col  space-y-5 bottom-48">
         <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8  left-5 absolute' />
           <p class=" text-6xl text-cream font-bold">ZEMY GROUP <span className="block text-center">LLC</span></p>
-          <button className='bg-blue-600 w-48 px-4 py-2 my-4 text-white rounded-full border-slate-100 hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all' style={{
-            borderWidth: '1px'
-          }}>Learn More</button>
+          <Button/>
+
           
       </div>
       {/* large Screens grid */}
@@ -104,9 +103,7 @@ export default function Home() {
         <div class="flex  absolute inset-0  md:h-72 bg-lurgundy  bg-opacity-50 md:hidden justify-center items-center flex-col h-72  " >
         <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8  left-5 absolute w-16' />
           <p class=" text-2xl text-cream font-bold ">ZEMY GROUP <span className="block text-center">LLC</span></p>
-          <button className='bg-blue-600 w-48 px-4 py-2 text-white rounded-full border-slate-100 hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all' style={{
-            borderWidth: '1px'
-          }}>Learn More</button>
+          <Button/>
           
       </div>
     </div>
@@ -122,7 +119,7 @@ export default function Home() {
       {/* About Us section*/}
 
 
-      <div className=" h-max absolute md:top-full w-full md:pt-4">
+      <div className=" h-max absolute md:top-full w-full md:pt-4" id='about_us'>
         <Service/>
       </div>
 
@@ -143,7 +140,7 @@ export default function Home() {
 
 {/* Company Overview */}
         <div className='mt-4'>
-          <h2 className="text-3xl sm:text-2xl font-semibold mx-auto my-8 text-center">Why ZEMY Group LLC is Unique</h2>
+          <h2 className="text-3xl  font-semibold mx-auto my-8 text-center">Why ZEMY Group LLC is Unique</h2>
           
             <div className="container mx-auto px-4 py-4">
               <div className="flex justify-center md:flex-row flex-col">
@@ -236,7 +233,7 @@ export default function Home() {
       </div> */}
       
       <div className="md:px-10 px-4 my-8 flex flex-col  space-y-4 ">
-        <h2 className="text-center text-2xl font-semibold">Join Us</h2>
+        <h2 className="text-center text-2xl sm:text-3xl font-semibold">Join Us</h2>
         <div className="flex md:flex-row flex-col md:space-x-20 md:w-3/4 w-full mx-auto">
           <Image src='/mail.svg' alt='news_letter' className='w-48 h-30 mx-auto' height={350} width={350}/>
           <div className='md:w-5/6 md:my-24 my-10'>

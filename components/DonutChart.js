@@ -12,11 +12,8 @@ const centerTextPlugin = {
           ctx = chart.ctx;
 
     ctx.restore();
-    // let fontSize = (height / 114).toFixed(2);
-    // ctx.font = fontSize + "em sans-serif";
-    // ctx.textBaseline = "middle";
-    // Set a fixed small font size
-    ctx.font = "bold 13px sans-serif"; // You can go smaller if needed, e.g., "6px sans-serif"
+
+    ctx.font = "bold 11px sans-serif"; // You can go smaller if needed, e.g., "6px sans-serif"
     ctx.textBaseline = "middle";
     ctx.textAlign = "center"; // Centers the text horizontally
     ctx.fillStyle = "#800020";
@@ -58,7 +55,6 @@ const data = {
         '#000080',
         '#A7A938',
 
-        // Add more colors for each subsidiary
       ],
       hoverOffset: 4
     },
@@ -71,13 +67,11 @@ const options = {
       enabled: true,
       callbacks: {
         title: function(tooltipItem) {
-          // Return the title for the tooltip
-          console.log(tooltipItem[0].dataIndex)
-          console.log()
+
           return data.labels[tooltipItem[0].dataIndex];
         },
         label: function(tooltipItem) {
-          // You'll assign each description to the respective data index
+
           const descriptions = [
             'A healthcare and CRO consulting firm which champions itself in clinical data  generation for medical devices that needs FDA registration.',
             'A multinational healthcare consultancy firm dedicated to the management of profitable health services through the use of innovative human and technological resources,',
@@ -93,7 +87,7 @@ const options = {
       }
     },
     legend: {
-      display: false, // Optional: hide the legend if you want to display it elsewhere
+      display: true, // Optional: hide the legend if you want to display it elsewhere
     }
   },
   // This will maintain the aspect ratio of your chart and might need to be adjusted based on your design requirements.
@@ -102,9 +96,10 @@ const options = {
 
 const DonutChart = () => (
   <div className="h-72 w-full py-4 my-8">
-      <h2 className="text-center  mx-auto  font-semibold ">Company OverView</h2>
+      <h2 className="text-center  mx-auto  font-semibold">Company OverView</h2>
 
-    <Doughnut data={data} options={options} plugins={[centerTextPlugin]}/>
+    <Doughnut data={data} options={options} />
+    {/* <Doughnut data={data} options={options} plugins={[centerTextPlugin]}/> */}
   </div>
 );
 

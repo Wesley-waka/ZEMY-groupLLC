@@ -8,7 +8,7 @@ const ContactUs = () => {
 
   return (
     <div className="md:px-10 my-4">
-    <h2 className="text-center text-2xl font-semibold">Contact Us</h2>
+    <h2 className="text-center text-2xl sm:text-3xl font-semibold">Contact Us</h2>
     <div className='flex flex-col-reverse md:flex-row md:space-x-36 space-x-0 md:w-3/4 w-full mx-auto'>
       <div className='md:w-3/5 w-full px-3 md:px-0 mx-auto'>
         <h2 className="text-3xl my-6 text-center text-burgundy font-bold">Let&apos;s Talk</h2>
@@ -77,7 +77,7 @@ const ContactUs = () => {
             </div>
             <div className='flex flex-row space-x-2 align-middle my-4'>
               <IoCall size={20}/>
-              <h6>+1 (917) 68095</h6>
+              <h6>+1 (917) 609-4597</h6>
             </div>
           </div>
       </div>
