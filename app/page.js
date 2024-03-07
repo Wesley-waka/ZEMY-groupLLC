@@ -13,6 +13,8 @@ export default function Home() {
   return (
     <div>
       {/* large Screens grid */}
+        <header>
+
       <div class="hidden lg:grid grid-cols-5 z-10 gap-1 p-0  relative">
 
         <div class="col-span-2 md:col-span-2  ">
@@ -54,13 +56,14 @@ export default function Home() {
 
           
       </div>
+      </header>
       {/* large Screens grid */}
 
 
       {/* small Screens grid */}
 
     <div >
-    <div class="flex flex-wrap -m-1 lg:-m-2 lg:hidden ">
+      <div class="flex flex-wrap -m-1 lg:-m-2 lg:hidden ">
         <div class="flex flex-wrap w-1/2">
             <div class="w-1/2 p-1 md:p-2">
         <Image src="/IMG_8.png" height={200} width={200} alt="Description" class="w-full h-full object-cover rounded"/>
@@ -94,9 +97,10 @@ export default function Home() {
           <p class=" text-2xl text-cream font-bold ">ZEMY GROUP <span className="block text-center">LLC</span></p>
           <Button/>
           
-      </div>
+        </div>
     </div>
       {/* small Screens grid */}
+      
 
       {/* About Us section*/}
 
@@ -112,9 +116,9 @@ export default function Home() {
       <div id={styles.section_features} className='md:mt-96  flex flex-col mx-auto'>
 
 
-    <div>
+      <div>
         <DonutChart/>
-    </div>
+      </div>
 
 {/* Company Overview */}
         <div className='mt-4'>
