@@ -191,28 +191,6 @@ export default function Home() {
 
 
       <Sustainability/>
-      {/* <div className='flex md:flex-row flex-col space-y-4 md:space-y-0 justify-center ml-4 mx-auto'>
-      <h2 className="text-3xl my-6 text-center">Sustainability and Social Responsibility</h2> 
-      <div className='w-72 text-center bg-gray-100 p-4 rounded-lg text-burgundy  border-red-200 border-t-4'>
-                <FaHandshake className="mx-auto block" size={50} />
-                <div className='mt-4'>
-                  <h6>At ZEMY Group LLC actively supports community initiatives, fosters inclusive growth, and operates with the utmost integrity to make a meaningful difference in society.</h6>
-                </div>
-              </div>
-              <div className='w-72 text-center bg-gray-100 p-4 rounded-lg text-burgundy  border-red-200 border-t-4'>
-                <BsGraphUpArrow className="mx-auto block" size={50}/>
-                <div className='mt-4'>
-                  <h6>At ZEMY Group LLC. We meticulously measure our impact and continuously innovate to reduce our carbon footprint, championing a greener economy.</h6>
-                </div>
-              </div>
-              <div className='w-72 text-center bg-gray-100 p-4 rounded-lg   text-burgundy border-red-200 border-t-4'>
-                <GiGears className="mx-auto block" size={50}/>
-
-                <div className='mt-4'>
-                  <h6>Through strategic partnerships and collaborative efforts, ZEMY Group LLC is on a mission to catalyze sustainable development and empower communities,</h6>
-                </div>
-              </div>
-      </div> */}
       
       <div className="md:px-10 px-4 my-8 flex flex-col  space-y-4 " id='news'>
         <h2 className="text-center text-2xl sm:text-3xl font-semibold">Join Us</h2>
