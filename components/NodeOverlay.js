@@ -31,7 +31,7 @@ function NodeOverlay () {
           width={300} 
           height={300} 
           alt="Background Circle Image"
-          className={`${styles.node_four} hidden lg:block d-none d-md-block`}
+          className={`${styles.node_four} hidden lg:block d-none d-md-block `}
         />
       </>
     );
