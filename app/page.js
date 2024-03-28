@@ -7,105 +7,59 @@ import DonutChart from "@/components/DonutChart";
 import ContactUs from "@/components/ContactUs";
 import ManufactureButton from "@/components/ManufactureButton";
 import Footer from "@/components/Footer";
+import NodeOverlay from "@/components/NodeOverlay";
 
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full">
       {/* large Screens grid */}
-        <header>
-
-      <div class="hidden lg:grid grid-cols-5 z-10 gap-1 p-0 relative">
-
-        <div class="col-span-2 md:col-span-2  ">
-          <Image src="/IMG_8.png" height={800} width={800} alt="Description" class="w-full h-full object-cover rounded"/>
+      <header>
+        <div className="lg:block  h-full w-full relative">
+          <div class="flex flex-wrap">
+            <div class="flex flex-wrap w-1/2">
+                <div class="w-1/2 p-1 md:p-2">
+            <Image src="/IMG_8.png" height={400} width={400} alt="Description" class="w-full h-full object-cover rounded"/>
+                </div>
+                <div class="w-1/2 p-1 md:p-1">
+            <Image src="/IMG_9.jpg" height={400} width={400} alt="Description" class="w-full h-full object-cover rounded"/>
+                </div>
+                <div class="w-full p-1 md:p-2">
+                <Image src="/ousa.jpg" height={400} width={400} alt="Description" class="w-full  h-full object-cover rounded"/>
+                </div>
+            </div>
+            <div class="flex flex-wrap w-1/2">
+                <div class="w-full p-1 md:p-2">
+            <Image src="/IMG_3.jpg" height={900} width={900} alt="Description" class="w-full h-full object-cover rounded"/>
+                </div>
+                <div class="w-1/2 p-1 md:p-2">
+            <Image src="/health.jpg" height={400} width={400} alt="Description" class="w-full  h-full  object-cover rounded"/>
+                </div>
+                <div class="w-1/2 p-1 md:p-2">
+            <Image src="/christina.jpg" height={400} width={400} alt="Description" class="w-full  h-full  object-cover rounded"/>
+                </div>
+            </div>
         </div>
-
-         <div class="col-span-2 md:col-span-1  ">
-          <Image src="/health.jpg" height={700} width={800} alt="Description" class="w-full h-full object-cover rounded"/>
+        <div class="absolute inset-0 bg-lurgundy bg-opacity-50 h-full">
+          <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8 sm:h-10 sm:w-20 h-5 w-10 left-5 absolute' />
+            <div className="text-center bottom-72 sm:mt-44 mt-12">
+              <p class="text-3xl sm:text-6xl text-cream font-bold sm:mb-24">ZEMY GROUP<span className="block text-center">LLC</span></p>
+              <Button/>
+            </div>
         </div>
-        
-        <div class="col-span-2 md:col-span-1 ">
-          <Image src="/IMG_9.jpg" height={400} width={400} alt="Description" class="w-full h-full object-cover rounded"/>
         </div>
-
-
-        <div class="col-span-2 md:col-span-1  ">
-          <Image src="/IMG_4.jpg" height={400} width={400} alt="Description" class="w-full h-full object-cover rounded"/>
-        </div>
-
-        <div class="col-span-2 md:col-span-2  ">
-          <Image src="/christina.jpg" height={700} width={800} alt="Description" class="w-full h-1/2 object-cover rounded"/>
-        </div>
-
-        <div class="col-span-2 md:col-span-1  ">
-          <Image src="/ryan.jpg" height={400} width={400} alt="Description" class="w-full h-1/2 object-cover rounded"/>
-        </div>
-
-
-        <div class="col-span-2   ">
-          <Image src="/ousa.jpg" height={400} width={400} alt="Description" class="w-full h-1/2 object-cover rounded"/>
-        </div> 
-        
-
-      </div>
-      <div class="hidden absolute inset-0 h-full bg-lurgundy z-10 bg-opacity-50 md:flex justify-center items-center flex-col  space-y-5 bottom-48">
-        <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8  left-5 absolute' />
-          <p class=" text-6xl text-cream font-bold">ZEMY GROUP <span className="block text-center">LLC</span></p>
-          <Button/>
-
-          
-      </div>
       </header>
       {/* large Screens grid */}
 
-
       {/* small Screens grid */}
-
     <div>
-      <div class="flex flex-wrap -m-1 lg:-m-2 lg:hidden">
-          <div class="flex flex-wrap w-1/2">
-              <div class="w-1/2 p-1 md:p-2">
-          <Image src="/IMG_8.png" height={200} width={200} alt="Description" class="w-full h-full object-cover rounded"/>
-
-              </div>
-              <div class="w-1/2 p-1 md:p-1">
-          <Image src="/IMG_9.jpg" height={200} width={200} alt="Description" class="w-full h-full object-cover rounded"/>
-
-              </div>
-              <div class="w-full p-1 md:p-2">
-              <Image src="/ousa.jpg" height={400} width={400} alt="Description" class="w-full sm:h-5/6 h-full object-cover rounded"/>
-
-              </div>
-          </div>
-          <div class="flex flex-wrap w-1/2">
-              <div class="w-full p-1 md:p-2">
-          <Image src="/IMG_3.jpg" height={400} width={400} alt="Description" class="w-full h-full object-cover rounded"/>
-
-              </div>
-              <div class="w-1/2 p-1 md:p-2">
-          <Image src="/health.jpg" height={400} width={400} alt="Description" class="w-full sm:h-5/6 h-full  object-cover rounded"/>
-
-              </div>
-              <div class="w-1/2 p-1 md:p-2">
-          <Image src="/christina.jpg" height={400} width={400} alt="Description" class="w-full sm:h-5/6 h-full  object-cover rounded"/>
-
-              </div>
-          </div>
-          <div class="flex  absolute inset-0  sm:h-full bg-lurgundy  bg-opacity-50 md:hidden justify-center items-center flex-col h-72  " >
-          <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8  left-5 absolute w-16' />
-            <p class=" text-2xl text-cream font-bold ">ZEMY GROUP <span className="block text-center">LLC</span></p>
-            <Button/>
-            
-          </div>
-      </div>
       {/* small Screens grid */}
       
 
       {/* About Us section*/}
 
 
-      <div className=" max-h-full absolute sm:top-full w-full sm:pt-4" id='about_us'>
+      <div  className=" max-h-full  sm:top-full w-full sm:pt-4" id='about_us'>
         <Service/>
       </div>
 
@@ -113,15 +67,15 @@ export default function Home() {
 
       
 
-      <div id={styles.section_features} className='md:mt-96  flex flex-col mx-auto'>
-
-
-      <div className="max-h-full">
+      <div   className='flex flex-col mx-auto'>
+      <div className="">
         <DonutChart/>
       </div>
 
+      <NodeOverlay/>
+
         {/* Company Overview */}
-        <div className='mt-4'>
+        <div className='mt-4' id={styles.section_features}>
           <h2 className="text-3xl font-semibold mx-auto my-8 text-center">Why ZEMY Group LLC is Unique</h2>
           
             <div className="container mx-auto px-4 py-4">
@@ -187,7 +141,7 @@ export default function Home() {
           
               </div>
         </div>
-  </div>
+      </div>
 
 
       <Sustainability/>

@@ -19,7 +19,7 @@ const StyledButton = styled.button`
 
 const Button = () => {
   return (
-    <button className='bg-blue-600 w-48 mx-auto px-4 py-2 text-white rounded-full border-slate-100 hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all ' onClick={() => document.getElementById('about_us').scrollIntoView({ behavior: 'smooth' })} style={{
+    <button className='bg-blue-600 w-48 mx-auto px-2 py-2 text-white rounded-full border-slate-100 hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all ' onClick={() => document.getElementById('about_us').scrollIntoView({ behavior: 'smooth' })} style={{
       borderWidth: '1px'
     }}>Learn More</button>
   )
