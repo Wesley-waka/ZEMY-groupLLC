@@ -19,7 +19,7 @@ const Service = () => {
         With a rich portfolio enveloping healthcare, daily commodities, real estate, and more, we are the nexus of industry-leading subsidiaries making a global impact.
         </p>
       </article>
-      <div className={` flex sm:flex-row flex-col  h-3/4 sm:space-x-6 space-y-6 sm:space-y-0 w-full  mx-auto sm:align-middle`}>
+      <div className={`flex sm:flex-row flex-col  h-3/4 sm:space-x-6 space-y-6 sm:space-y-0 w-full  mx-auto sm:align-middle`}>
         {services.map((service) => {
           const { id, icon, title, text } = service
           return (

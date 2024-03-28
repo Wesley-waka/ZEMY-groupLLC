@@ -15,7 +15,7 @@ export default function Home() {
       {/* large Screens grid */}
         <header>
 
-      <div class="hidden lg:grid grid-cols-5 z-10 gap-1 p-0  relative">
+      <div class="hidden lg:grid grid-cols-5 z-10 gap-1 p-0 relative">
 
         <div class="col-span-2 md:col-span-2  ">
           <Image src="/IMG_8.png" height={800} width={800} alt="Description" class="w-full h-full object-cover rounded"/>
@@ -49,7 +49,7 @@ export default function Home() {
         
 
       </div>
-      <div class="hidden  absolute inset-0 h-full bg-lurgundy z-10 bg-opacity-50 md:flex justify-center items-center flex-col  space-y-5 bottom-48">
+      <div class="hidden absolute inset-0 h-full bg-lurgundy z-10 bg-opacity-50 md:flex justify-center items-center flex-col  space-y-5 bottom-48">
         <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8  left-5 absolute' />
           <p class=" text-6xl text-cream font-bold">ZEMY GROUP <span className="block text-center">LLC</span></p>
           <Button/>
@@ -122,7 +122,7 @@ export default function Home() {
 
         {/* Company Overview */}
         <div className='mt-4'>
-          <h2 className="text-3xl  font-semibold mx-auto my-8 text-center">Why ZEMY Group LLC is Unique</h2>
+          <h2 className="text-3xl font-semibold mx-auto my-8 text-center">Why ZEMY Group LLC is Unique</h2>
           
             <div className="container mx-auto px-4 py-4">
               <div className="flex justify-center md:flex-row flex-col">
