@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <footer>
-    <div className='h-full bg-burgundy text-center text-white'>
+    <div className='h-full bg-burgundy text-center text-white '>
     <div className='flex flex-col space-y-2'>
       <div className='flex mx-auto mt-2'>
         <h5 className='hover:cursor-pointer' onClick={() => document.getElementById('about_us').scrollIntoView({ behavior: 'smooth' })}>About Us</h5> <span>|</span>
