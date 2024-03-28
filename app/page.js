@@ -199,12 +199,14 @@ export default function Home() {
           <div className='md:w-5/6 md:my-24 my-10'>
             <h1 className="md:text-xl text-sm text-center md:text-start">Subscribe to our newsletter to get Access to the latest news,updates and exclusive content 
             </h1>
-            <form className='flex flex-col relative'>
-              <label className="text-base ">Email</label>
-              <input className='border-gray-400 p-2 rounded-lg sm:w-72 w-full h-9 focus:ring focus:ring-burgundy' style={{
-                borderWidth: '1px'
-              }}/>
-                <button type="submit" className="text-white absolute end-2 bottom-0 right-0 sm:right-96 bg-burgundy hover:bg-burgundy focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-burgundy dark:hover:bg-burgundy dark:focus:ring-orange-800">Send</button>
+            <form className='flex  flex-col space-y-3'>
+              <div className="flex flex-col ">
+                <label className="text-base ">Email</label>
+                <input className='border-gray-400 p-2 rounded-lg  w-full h-9 focus:ring focus:ring-burgundy' style={{
+                  borderWidth: '1px'
+                }}/>
+              </div>
+                <button type="submit" className="text-white end-2 bottom-0 right-0  bg-burgundy hover:bg-burgundy focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2  dark:bg-burgundy dark:hover:bg-burgundy dark:focus:ring-orange-800">Send</button>
             </form>
 
           </div>
