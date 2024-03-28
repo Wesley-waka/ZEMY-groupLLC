@@ -58,7 +58,7 @@ const ContactUs = () => {
                           required cols={30} rows={5} style={{borderWidth: '0.75px'}} className='p-2 w-full rounded-lg border-2 border-gray-400 focus:ring focus:ring-burgundy '/>
           </div>
 
-          <button className='bg-burgundy md:w-48 w-full p-3 text-white rounded-lg border-slate-400  hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all' style={{
+          <button className='bg-burgundy  w-full p-3 text-white rounded-lg border-slate-400  hover:bg-white hover:text-burgundy hover:border-burgundy hover:transition-all' style={{
             borderWidth: '1px'
           }}>Send Message</button>
           

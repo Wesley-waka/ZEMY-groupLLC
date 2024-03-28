@@ -62,50 +62,50 @@ export default function Home() {
 
       {/* small Screens grid */}
 
-    <div >
-      <div class="flex flex-wrap -m-1 lg:-m-2 lg:hidden ">
-        <div class="flex flex-wrap w-1/2">
-            <div class="w-1/2 p-1 md:p-2">
-        <Image src="/IMG_8.png" height={200} width={200} alt="Description" class="w-full h-full object-cover rounded"/>
+    <div>
+      <div class="flex flex-wrap -m-1 lg:-m-2 lg:hidden">
+          <div class="flex flex-wrap w-1/2">
+              <div class="w-1/2 p-1 md:p-2">
+          <Image src="/IMG_8.png" height={200} width={200} alt="Description" class="w-full h-full object-cover rounded"/>
 
-            </div>
-            <div class="w-1/2 p-1 md:p-1">
-        <Image src="/IMG_9.jpg" height={200} width={200} alt="Description" class="w-full h-full object-cover rounded"/>
+              </div>
+              <div class="w-1/2 p-1 md:p-1">
+          <Image src="/IMG_9.jpg" height={200} width={200} alt="Description" class="w-full h-full object-cover rounded"/>
 
-            </div>
-            <div class="w-full p-1 md:p-2">
-            <Image src="/ousa.jpg" height={400} width={400} alt="Description" class="w-full sm:h-5/6 h-full object-cover rounded"/>
+              </div>
+              <div class="w-full p-1 md:p-2">
+              <Image src="/ousa.jpg" height={400} width={400} alt="Description" class="w-full sm:h-5/6 h-full object-cover rounded"/>
 
-            </div>
-        </div>
-        <div class="flex flex-wrap w-1/2">
-            <div class="w-full p-1 md:p-2">
-        <Image src="/IMG_3.jpg" height={400} width={400} alt="Description" class="w-full h-full object-cover rounded"/>
+              </div>
+          </div>
+          <div class="flex flex-wrap w-1/2">
+              <div class="w-full p-1 md:p-2">
+          <Image src="/IMG_3.jpg" height={400} width={400} alt="Description" class="w-full h-full object-cover rounded"/>
 
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-        <Image src="/health.jpg" height={400} width={400} alt="Description" class="w-full sm:h-5/6 h-full  object-cover rounded"/>
+              </div>
+              <div class="w-1/2 p-1 md:p-2">
+          <Image src="/health.jpg" height={400} width={400} alt="Description" class="w-full sm:h-5/6 h-full  object-cover rounded"/>
 
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-        <Image src="/christina.jpg" height={400} width={400} alt="Description" class="w-full sm:h-5/6 h-full  object-cover rounded"/>
+              </div>
+              <div class="w-1/2 p-1 md:p-2">
+          <Image src="/christina.jpg" height={400} width={400} alt="Description" class="w-full sm:h-5/6 h-full  object-cover rounded"/>
 
-            </div>
-        </div>
-        <div class="flex  absolute inset-0  sm:h-full bg-lurgundy  bg-opacity-50 md:hidden justify-center items-center flex-col h-72  " >
-        <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8  left-5 absolute w-16' />
-          <p class=" text-2xl text-cream font-bold ">ZEMY GROUP <span className="block text-center">LLC</span></p>
-          <Button/>
-          
-        </div>
-    </div>
+              </div>
+          </div>
+          <div class="flex  absolute inset-0  sm:h-full bg-lurgundy  bg-opacity-50 md:hidden justify-center items-center flex-col h-72  " >
+          <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8  left-5 absolute w-16' />
+            <p class=" text-2xl text-cream font-bold ">ZEMY GROUP <span className="block text-center">LLC</span></p>
+            <Button/>
+            
+          </div>
+      </div>
       {/* small Screens grid */}
       
 
       {/* About Us section*/}
 
 
-      <div className=" h-max absolute sm:top-full w-full sm:pt-4" id='about_us'>
+      <div className=" max-h-full absolute sm:top-full w-full sm:pt-4" id='about_us'>
         <Service/>
       </div>
 
@@ -116,11 +116,11 @@ export default function Home() {
       <div id={styles.section_features} className='md:mt-96  flex flex-col mx-auto'>
 
 
-      <div>
+      <div className="max-h-full">
         <DonutChart/>
       </div>
 
-{/* Company Overview */}
+        {/* Company Overview */}
         <div className='mt-4'>
           <h2 className="text-3xl  font-semibold mx-auto my-8 text-center">Why ZEMY Group LLC is Unique</h2>
           
@@ -128,14 +128,14 @@ export default function Home() {
               <div className="flex justify-center md:flex-row flex-col">
                 <div className={`${styles.backsplash_container} w-full md:w-1/3 text-center`} >
           <div className={`${styles.backsplash} mx-auto`}></div>
-          <Image
-            src="/bs.jpg"
-            alt="Screenshot of Roads app showing the main player with several comments."
-            height={400}
-            width={200}
-            className={`${styles.backsplash_image} shadow-lg mx-auto rounded-lg`}
-          />
-                </div>
+            <Image
+              src="/bs.jpg"
+              alt="Screenshot of Roads app showing the main player with several comments."
+              height={400}
+              width={200}
+              className={`${styles.backsplash_image} shadow-lg mx-auto rounded-lg`}
+            />
+          </div>
           
                 <div className='w-full md:w-1/3 md:ml-4 flex items-center'>
           <div>
@@ -200,13 +200,13 @@ export default function Home() {
             <h1 className="md:text-xl text-sm text-center md:text-start">Subscribe to our newsletter to get Access to the latest news,updates and exclusive content 
             </h1>
             <form className='flex  flex-col space-y-3'>
-              <div className="flex flex-col ">
                 <label className="text-base ">Email</label>
+              <div className="flex lg:flex-row flex-col space-y-3 lg:space-x-3 space-x-0 lg:space-y-0">
                 <input className='border-gray-400 p-2 rounded-lg  w-full h-9 focus:ring focus:ring-burgundy' style={{
                   borderWidth: '1px'
                 }}/>
+                <button type="submit" className="text-white lg:w-1/2 w-full end-2 bottom-0 right-0  bg-burgundy hover:bg-burgundy focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2  dark:bg-burgundy dark:hover:bg-burgundy dark:focus:ring-orange-800">Send</button>
               </div>
-                <button type="submit" className="text-white end-2 bottom-0 right-0  bg-burgundy hover:bg-burgundy focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2  dark:bg-burgundy dark:hover:bg-burgundy dark:focus:ring-orange-800">Send</button>
             </form>
 
           </div>

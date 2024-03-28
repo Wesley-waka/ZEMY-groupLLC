@@ -94,12 +94,11 @@ const options = {
 };
 
 const DonutChart = () => (
-  <div className="h-72 w-full py-4 my-8">
-      <h2 className="text-center  mx-auto  font-semibold">Company OverView</h2>
-    {/* <div className='mt-2'> */}
-      <Doughnut data={data} options={options} />
-    {/* </div> */}
-    {/* <Doughnut data={data} options={options} plugins={[centerTextPlugin]}/> */}
+  <div className="max-h-72 w-full py-4 my-8">
+      {/* <div> */}
+        <h2 className="text-center  mx-auto  font-semibold">Company OverView</h2>
+        <Doughnut data={data} options={options} />
+      {/* </div> */}
   </div>
 );
 
