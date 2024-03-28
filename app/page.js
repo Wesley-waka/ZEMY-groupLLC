@@ -72,7 +72,7 @@ export default function Home() {
         <DonutChart/>
       </div>
 
-      <NodeOverlay/>
+      
 
         {/* Company Overview */}
         <div className='mt-4' id={styles.section_features}>
