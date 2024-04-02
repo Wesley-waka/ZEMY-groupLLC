@@ -12,9 +12,9 @@ const Service = () => {
       <h2 className="text-center py-4 mx-auto  font-bold ">ABOUT US</h2>
     <div className='sm:ml-40 sm:m-6 mx-4 xs:mt-10'>
       <article className='header flex flex-row space-x-8 sm:my-7 text-burgundy xs:my-4'>
-        <h3 className='font-bold'>
+        <h1 className='font-bold'>
         ZEMY Group  LLC, <br /> 
-        </h3>
+        </h1>
         <p className='sm:w-5/12'>
         With a rich portfolio enveloping healthcare, daily commodities, real estate, and more, we are the nexus of industry-leading subsidiaries making a global impact.
         </p>
