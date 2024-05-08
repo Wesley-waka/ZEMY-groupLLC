@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -45,10 +46,72 @@ export async function generateMetadata(){
 }
 }
 
+const schemaOrgData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://elitetreatforpets.com/#organization",
+      "name": "Elite Treat For Pets",
+      "sameAs": ["https://www.facebook.com/PetTreat"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://elitetreatforpets.com/#website",
+      "url": "https://elitetreatforpets.com",
+      "name": "Elite Treat For Pets",
+      "publisher": {
+        "@id": "https://elitetreatforpets.com/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://elitetreatforpets.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://elitetreatforpets.com",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://elitetreatforpets.com/",
+            "name": "Elite Treat For Pets"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://elitetreatforpets.com/#webpage",
+      "url": "https://elitetreatforpets.com/",
+      "name": "Premium all-natural bully sticks for dogs. Healthy, delicious, and long-lasting. | Elite Treat For Pets",
+      "isPartOf": {
+        "@id": "https://elitetreatforpets.com/#website"
+      },
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@id": "https://elitetreatforpets.com/#breadcrumb"
+      }
+    }
+  ]
+};
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+        <Script
+        id="my-script"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrgData) }}
+      />
       <link rel="alternate" type="application/rss+xml" title="ZEMY GROUP &raquo; Feed" href="https://rss.app/feeds/SRjwJEauF0ZESkkJ.xml" />
       <body className={inter.className}>{children}</body>
     </html>
