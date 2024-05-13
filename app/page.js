@@ -8,13 +8,16 @@ import ContactUs from "@/components/ContactUs";
 import ManufactureButton from "@/components/ManufactureButton";
 import Footer from "@/components/Footer";
 import NodeOverlay from "@/components/NodeOverlay";
-
+import Link from "next/link";
+import Navbar from "@/components/Navbar"
+import ValueBlock from "@/components/ValueBlock";
 
 export default function Home() {
+
   return (
     <div className="w-full">
       {/* Image grid */}
-      <header>
+      <header className="hero">
         <div className="lg:block  h-full w-full relative">
           <div className="flex flex-wrap">
             <div className="flex flex-wrap w-1/2">
@@ -41,7 +44,6 @@ export default function Home() {
             </div>
         </div>
         <div className="absolute inset-0 bg-lurgundy bg-opacity-50 h-full">
-          <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8 sm:h-10 sm:w-20 h-5 w-10 left-5 absolute' />
             <div className="text-center bottom-72 sm:mt-44 mt-12">
               <p className="text-3xl sm:text-6xl text-cream font-bold sm:mb-24">ZEMY GROUP<span className="block text-center">LLC</span></p>
               <Button/>
@@ -54,10 +56,15 @@ export default function Home() {
       
 
       {/* About Us section*/}
-      <div  className=" max-h-full  sm:top-full w-full sm:pt-4" id='about_us'>
+      <div  className=" max-h-full sm:top-full w-full sm:pt-4" id='about_us'>
         <Service/>
       </div>
       {/* About Us section*/}
+
+      <h3 className="text-center text-2xl">Our Values</h3>
+      <div className="max-w-6xl mx-auto overflow-hidden text-white rounded-lg">
+          <ValueBlock/>
+      </div>
 
       <div className='flex flex-col mx-auto'>
       <div className="">
@@ -65,7 +72,7 @@ export default function Home() {
       </div>
         {/* Company Overview */}
         <div className='mt-4' id={styles.section_features}>
-          <h2 className="text-3xl font-semibold mx-auto my-8 text-center">Why ZEMY Group LLC is Unique</h2>
+          <h2 className="text-3xl font-semibold mx-auto my-8 text-center">Why ZEMY Group LLC</h2>
             <div className="container mx-auto px-4 py-4">
               <div className="flex justify-center md:flex-row flex-col">
                 <div className={`${styles.backsplash_container} w-full md:w-1/3 text-center`} >
@@ -127,7 +134,7 @@ export default function Home() {
       </div>
       <Sustainability/>
       
-      <div className="md:px-10 px-4 my-8 flex flex-col  space-y-4 " id='news'>
+      {/* <div className="md:px-10 px-4 my-8 flex flex-col  space-y-4 " id='news'>
         <h2 className="text-center text-2xl sm:text-3xl font-semibold">Join Us</h2>
         <div className="flex md:flex-row flex-col md:space-x-20 md:w-3/4 w-full mx-auto">
           <Image src='/mail.svg' alt='news_letter' className='w-48 h-30 mx-auto' height={350} width={350}/>
@@ -145,12 +152,14 @@ export default function Home() {
             </form>
           </div>
         </div>
-      </div>
-    <div id="contact_us">
-      <ContactUs/>
-    </div>
+      </div> */}
     
-    <Footer/>
+    {/* <div id="contact_us">
+      <ContactUs/>
+    </div> */}
+
+    
+    {/* <Footer/> */}
     </div>
     </div>
   );
