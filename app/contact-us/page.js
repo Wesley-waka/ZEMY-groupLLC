@@ -10,7 +10,7 @@ const page = () => {
       <div className='flex h-1/4 text-center py-auto bg-rose-800 justify-between'>
         <div className='text-white text-start my-auto pl-14'>
         <h1 className='font-bold'>Contact Us</h1>
-        <h4 className='font-light text-sm'>
+        <h4 className='font-light text-sm w-10/12'>
         is a rich portfolio enveloping healthcare, daily commodities, real estate, and more, we are the nexus of industry-leading subsidiaries making a global impact.
         </h4>
         </div>
@@ -49,19 +49,19 @@ const page = () => {
               </div>
              
             </div>
-            <div className='bg-white w-4/5 flex-col p-8 rounded-md'>
+            <div className='bg-white w-4/5 flex-col px-8 py-10 rounded-md'>
               <div>
                 <h2 className='text-3xl font-semibold'>Send Message</h2>
                 <div className='text-sm font-light'> daily commodities, real estate, and more, we are the nexus of industry-leading subsidiaries making a global impact.</div>
               </div>
-              <form className='flex flex-col space-y-4 my-2'>
+              <form className='flex flex-col space-y-6 my-2'>
                 <div className='flex flex-row space-x-1 '>
-                  <input placeholder='First Name' className='border w-1/2 rounded-lg p-1' />
-                  <input placeholder='Last Name' className='border w-1/2 rounded-lg p-1'/>
+                  <input placeholder='First Name' className='border w-1/2 rounded-lg px-2 py-2' />
+                  <input placeholder='Last Name' className='border w-1/2 rounded-lg px-2 py-2'/>
                 </div>
                 <div className='flex flex-row space-x-1 '>
-                  <input placeholder='Email' className='border w-1/2 rounded-lg p-1' />
-                  <input placeholder='Phone Number' className='border w-1/2 rounded-lg p-1'/>
+                  <input placeholder='Email' className='border w-1/2 rounded-lg px-2 py-2' />
+                  <input placeholder='Phone Number' className='border w-1/2 rounded-lg px-2 py-2'/>
                 </div>
                 <textarea name="message" id="message" placeholder="Message"
                     aria-required="true"
@@ -72,12 +72,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className='py-16 text-center'>
-        <h2 className='font-semibold'>Find Us on Google Maps</h2>
-        <div className=''>
-        is a rich portfolio enveloping healthcare, daily commodities, real estate, and more, we are the nexus of industry-leading subsidiaries making a global impact.
-        </div>
-      </div>
+
     </div>
   )
 }

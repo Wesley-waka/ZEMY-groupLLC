@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const page = () => {
@@ -126,6 +127,22 @@ const page = () => {
         </div>
       </div>
 
+      <div className="w-3/4 flex flex-row space-x-0 mx-auto my-8">
+    <div className=" bg-burgundy text-white ">
+      <div className="p-28">
+        <h3 className="text-3xl font-extralight mb-6">Interested about Our Products & Services</h3>
+        <Link href='/contact-Us' className="mt-6 py-2 px-12 bg-blue-600 rounded-full hover:text-burgundy hover:border-blue-600 hover:bg-white hover:transition-all">Contact Us</Link>
+      </div>
+    </div>
+    {/* <div> */}
+      <Image
+        src='/contact.jpg'
+        alt='bull-stick'
+        width={400}
+        height={600}
+      />
+    {/* </div> */}
+  </div>
     </div>
   )
 }

@@ -12,26 +12,9 @@ const Footer = () => {
   const current_year = new Date().getFullYear();
 
   return (
-    <div>
-    <div className="w-3/4 flex flex-row space-x-0 mx-auto my-8">
-    <div className=" bg-burgundy text-white ">
-      <div className="p-28">
-        <h3 className="text-3xl font-extralight mb-6">Interested about Our Products & Services</h3>
-        <Link href='/contact-Us' className="mt-6 py-2 px-12 bg-blue-600 rounded-full hover:text-burgundy hover:border-blue-600 hover:bg-white hover:transition-all">Contact Us</Link>
-      </div>
-    </div>
-    {/* <div> */}
-      <Image
-        src='/contact.jpg'
-        alt='bull-stick'
-        width={400}
-        height={600}
-      />
-    {/* </div> */}
-  </div>
-    <footer className='h-72 '>
-    <div className='h-full bg-burgundy  text-white py-8 pl-52'>
-    <div className='flex flex-col sm:flex-row space-x-40'>
+    <footer className='sm:h-72 h-full '>
+    <div className='h-full bg-burgundy  text-white py-4 px-6 sm:py-8 sm:pl-52 '>
+    <div className='flex flex-col space-x-0 sm:flex-row sm:space-x-40 space-y-4 sm:space-y-0'>
       {/* <div className='flex mx-auto mt-2'>
         <h5 className='hover:cursor-pointer' onClick={() => document.getElementById('about_us').scrollIntoView({ behavior: 'smooth' })}>About Us</h5> <span>|</span>
         <h5 className='hover:cursor-pointer'  onClick={() => document.getElementById('news').scrollIntoView({ behavior: 'smooth' })}>News</h5> <span>|</span>
@@ -83,7 +66,6 @@ const Footer = () => {
   </div>
     <h2 className='text-sm text-center py-3 w-full bg-white text-burgundy'>Copyright © {current_year}, Zemy Group  LLC. All Rights Reserved.</h2>
   </footer>
-  </div>
   )
 }
 

@@ -61,7 +61,7 @@ export default function Home() {
       </div>
       {/* About Us section*/}
 
-      <h3 className="text-center text-2xl">Our Values</h3>
+      <h2 className="text-center my-10 mx-auto  font-bold ">Our Values</h2>
       <div className="max-w-6xl mx-auto overflow-hidden text-white rounded-lg">
           <ValueBlock/>
       </div>
@@ -115,7 +115,7 @@ export default function Home() {
                 <div className={`${styles.backsplash_container} w-full md:w-1/3 text-center`} >
           <div className={`${styles.backsplash} mx-auto`}></div>
           <Image
-            src="/estate.jpg"
+            src="/estat.jpg"
             alt="Screenshot of Roads app showing how to select friends to add to a channel."
             height={400}
             width={200}
@@ -134,32 +134,8 @@ export default function Home() {
       </div>
       <Sustainability/>
       
-      {/* <div className="md:px-10 px-4 my-8 flex flex-col  space-y-4 " id='news'>
-        <h2 className="text-center text-2xl sm:text-3xl font-semibold">Join Us</h2>
-        <div className="flex md:flex-row flex-col md:space-x-20 md:w-3/4 w-full mx-auto">
-          <Image src='/mail.svg' alt='news_letter' className='w-48 h-30 mx-auto' height={350} width={350}/>
-          <div className='md:w-5/6 md:my-24 my-10'>
-            <h1 className="md:text-xl text-sm text-center md:text-start">Subscribe to our newsletter to get Access to the latest news,updates and exclusive content 
-            </h1>
-            <form className='flex  flex-col space-y-3'>
-                <label className="text-base ">Email</label>
-              <div className="flex lg:flex-row flex-col space-y-3 lg:space-x-3 space-x-0 lg:space-y-0">
-                <input className='border-gray-400 p-2 rounded-lg  w-full h-9 focus:ring focus:ring-burgundy' style={{
-                  borderWidth: '1px'
-                }}/>
-                <button type="submit" className="text-white lg:w-1/2 w-full end-2 bottom-0 right-0  bg-burgundy hover:bg-burgundy focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2  dark:bg-burgundy dark:hover:bg-burgundy dark:focus:ring-orange-800">Send</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div> */}
-    
-    {/* <div id="contact_us">
-      <ContactUs/>
-    </div> */}
 
-    
-    {/* <Footer/> */}
+
     </div>
     </div>
   );
