@@ -8,13 +8,16 @@ import ContactUs from "@/components/ContactUs";
 import ManufactureButton from "@/components/ManufactureButton";
 import Footer from "@/components/Footer";
 import NodeOverlay from "@/components/NodeOverlay";
-
+import Link from "next/link";
+import Navbar from "@/components/Navbar"
+import ValueBlock from "@/components/ValueBlock";
 
 export default function Home() {
+
   return (
     <div className="w-full">
       {/* Image grid */}
-      <header>
+      <header className="hero z-10">
         <div className="lg:block  h-full w-full relative">
           <div className="flex flex-wrap">
             <div className="flex flex-wrap w-1/2">
@@ -41,7 +44,6 @@ export default function Home() {
             </div>
         </div>
         <div className="absolute inset-0 bg-lurgundy bg-opacity-50 h-full">
-          <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='top-8 sm:h-10 sm:w-20 h-5 w-10 left-5 absolute' />
             <div className="text-center bottom-72 sm:mt-44 mt-12">
               <p className="text-3xl sm:text-6xl text-cream font-bold sm:mb-24">ZEMY GROUP<span className="block text-center">LLC</span></p>
               <Button/>
@@ -54,10 +56,15 @@ export default function Home() {
       
 
       {/* About Us section*/}
-      <div  className=" max-h-full  sm:top-full w-full sm:pt-4" id='about_us'>
+      <div  className=" max-h-full sm:top-full w-full sm:pt-4" id='about_us'>
         <Service/>
       </div>
       {/* About Us section*/}
+
+      <h2 className="text-center my-10 mx-auto  font-bold ">Our Values</h2>
+      <div className="max-w-6xl mx-auto overflow-hidden text-white rounded-lg">
+          <ValueBlock/>
+      </div>
 
       <div className='flex flex-col mx-auto'>
       <div className="">
@@ -65,7 +72,7 @@ export default function Home() {
       </div>
         {/* Company Overview */}
         <div className='mt-4' id={styles.section_features}>
-          <h2 className="text-3xl font-semibold mx-auto my-8 text-center">Why ZEMY Group LLC is Unique</h2>
+          <h2 className="text-3xl font-semibold mx-auto my-8 text-center">Why ZEMY Group LLC</h2>
             <div className="container mx-auto px-4 py-4">
               <div className="flex justify-center md:flex-row flex-col">
                 <div className={`${styles.backsplash_container} w-full md:w-1/3 text-center`} >
@@ -82,7 +89,9 @@ export default function Home() {
           <div>
             <h3 className='sm:text-start text-center font-light'>Manufacturing</h3>
             <p className='sm:text-start text-center font-extralight'>Our company takes pride in sustainably sourcing the highest quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States</p>
-            <ManufactureButton/>
+            <Link href='/services/manufacturing' className="bg-burgundy text-white py-2 px-5 rounded-md hover:text-burgundy hover:border-burgundy hover:border-2 hover:bg-white transition-colors">
+              Learn More
+            </Link>
           </div>
                 </div>
               </div>
@@ -101,14 +110,18 @@ export default function Home() {
           <div>
             <h3 className='sm:text-start text-center font-light'>Pharmaceuticals & Health Products</h3>
             <p className='sm:text-start text-center font-extralight'>Sierra Global Health LLC embodies innovation in the generic pharma space, with a manufacturing presence spanning from the Czech Republic to India. Our commitment to quality positions us as a powerhouse ready to enhance North America&apos;s pharmaceutical landscape.</p>
+            <Link href='/services/manufacturing' className="transition-colors bg-burgundy text-white py-2 px-5 rounded-md hover:text-burgundy hover:border-burgundy hover:border-2 hover:bg-white">
+              Learn More
+            </Link>
           </div>
+          
                 </div>
               </div>
               <div className="flex justify-center md:flex-row flex-col">
                 <div className={`${styles.backsplash_container} w-full md:w-1/3 text-center`} >
           <div className={`${styles.backsplash} mx-auto`}></div>
           <Image
-            src="/estate.jpg"
+            src="/estat.jpg"
             alt="Screenshot of Roads app showing how to select friends to add to a channel."
             height={400}
             width={200}
@@ -119,6 +132,9 @@ export default function Home() {
           <div>
             <h3 className='sm:text-start text-center font-light'>Real Estate Initiatives</h3>
             <p className='sm:text-start text-center font-extralight'>Unite the comfort of home with the pulse of industry through Mysha Khan LLC and Zeake Khan LLC, where we expertly secure and manage residential investments to prosper your sanctuary,  ensuring growth and stability for our discerning clientele</p>
+            <Link href='/services/manufacturing' className="bg-burgundy transition-colors text-white py-2 px-5 w-full rounded-md hover:text-burgundy hover:border-burgundy hover:border-2 hover:bg-white">
+              Learn More
+            </Link>
           </div>
                 </div>
               </div>
@@ -127,30 +143,8 @@ export default function Home() {
       </div>
       <Sustainability/>
       
-      <div className="md:px-10 px-4 my-8 flex flex-col  space-y-4 " id='news'>
-        <h2 className="text-center text-2xl sm:text-3xl font-semibold">Join Us</h2>
-        <div className="flex md:flex-row flex-col md:space-x-20 md:w-3/4 w-full mx-auto">
-          <Image src='/mail.svg' alt='news_letter' className='w-48 h-30 mx-auto' height={350} width={350}/>
-          <div className='md:w-5/6 md:my-24 my-10'>
-            <h1 className="md:text-xl text-sm text-center md:text-start">Subscribe to our newsletter to get Access to the latest news,updates and exclusive content 
-            </h1>
-            <form className='flex  flex-col space-y-3'>
-                <label className="text-base ">Email</label>
-              <div className="flex lg:flex-row flex-col space-y-3 lg:space-x-3 space-x-0 lg:space-y-0">
-                <input className='border-gray-400 p-2 rounded-lg  w-full h-9 focus:ring focus:ring-burgundy' style={{
-                  borderWidth: '1px'
-                }}/>
-                <button type="submit" className="text-white lg:w-1/2 w-full end-2 bottom-0 right-0  bg-burgundy hover:bg-burgundy focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-4 py-2  dark:bg-burgundy dark:hover:bg-burgundy dark:focus:ring-orange-800">Send</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    <div id="contact_us">
-      <ContactUs/>
-    </div>
-    
-    <Footer/>
+
+
     </div>
     </div>
   );
