@@ -12,7 +12,7 @@ const page = () => {
             <h2 className='text-base leading-7'>At ZEMY Group LLC we consider working with people for the best of their needs ensuring we deliver the right results to their benefits and financial homes.Under the ZEMY GROUP LLC umbrella, we nurture a diverse family of subsidiaries, each dedicated to excellence in their respective fields.</h2>
           </div>
           <div className='sm:w-10/12'>
-            <Image width={1000} height={1000} alt='real-estate' src='/estate.jpg' className='h-full'/>
+            <Image width={1000} height={1000} alt='real-estate' src='/estate-1.jpg' className='h-full'/>
           </div>
       </div>
 
