@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className="w-full">
       {/* Image grid */}
-      <header className="hero">
+      <header className="hero z-10">
         <div className="lg:block  h-full w-full relative">
           <div className="flex flex-wrap">
             <div className="flex flex-wrap w-1/2">
@@ -89,7 +89,9 @@ export default function Home() {
           <div>
             <h3 className='sm:text-start text-center font-light'>Manufacturing</h3>
             <p className='sm:text-start text-center font-extralight'>Our company takes pride in sustainably sourcing the highest quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States</p>
-            <ManufactureButton/>
+            <Link href='/services/manufacturing' className="bg-burgundy text-white py-2 px-5 rounded-md hover:text-burgundy hover:border-burgundy hover:border-2 hover:bg-white transition-colors">
+              Learn More
+            </Link>
           </div>
                 </div>
               </div>
@@ -108,7 +110,11 @@ export default function Home() {
           <div>
             <h3 className='sm:text-start text-center font-light'>Pharmaceuticals & Health Products</h3>
             <p className='sm:text-start text-center font-extralight'>Sierra Global Health LLC embodies innovation in the generic pharma space, with a manufacturing presence spanning from the Czech Republic to India. Our commitment to quality positions us as a powerhouse ready to enhance North America&apos;s pharmaceutical landscape.</p>
+            <Link href='/services/manufacturing' className="transition-colors bg-burgundy text-white py-2 px-5 rounded-md hover:text-burgundy hover:border-burgundy hover:border-2 hover:bg-white">
+              Learn More
+            </Link>
           </div>
+          
                 </div>
               </div>
               <div className="flex justify-center md:flex-row flex-col">
@@ -126,6 +132,9 @@ export default function Home() {
           <div>
             <h3 className='sm:text-start text-center font-light'>Real Estate Initiatives</h3>
             <p className='sm:text-start text-center font-extralight'>Unite the comfort of home with the pulse of industry through Mysha Khan LLC and Zeake Khan LLC, where we expertly secure and manage residential investments to prosper your sanctuary,  ensuring growth and stability for our discerning clientele</p>
+            <Link href='/services/manufacturing' className="bg-burgundy transition-colors text-white py-2 px-5 w-full rounded-md hover:text-burgundy hover:border-burgundy hover:border-2 hover:bg-white">
+              Learn More
+            </Link>
           </div>
                 </div>
               </div>

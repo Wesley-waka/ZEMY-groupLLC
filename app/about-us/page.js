@@ -5,51 +5,51 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <div className='flex flex-row space-x-6 mt-20 mx-14 py-10 align-middle justify-center'>
-          <div className='w-7/12'>
+      <div className='flex flex-col space-y-4 mt-14 px-2 sm:flex-row sm:space-x-6 sm:mt-20 sm:mx-14 sm:py-10 align-middle justify-center'>
+          <div className='sm:w-7/12'>
             <h1 className='text-sm font-light text-burgundy'>ABOUT US</h1>
             <h2 className='text-4xl font-extrabold'>Creating <span className='relative underline-after'>value</span> for sustainable business practices</h2>
-            <h2 className='text-base leading-7'>At ZEMY Group LLC we consider working with people for the best of their needs ensuring we deliver the right results to their benefits and financial homes.With over 200+ users and 12 companies delivering the right results to and fro the company.</h2>
+            <h2 className='text-base leading-7'>At ZEMY Group LLC we consider working with people for the best of their needs ensuring we deliver the right results to their benefits and financial homes.Under the ZEMY GROUP LLC umbrella, we nurture a diverse family of subsidiaries, each dedicated to excellence in their respective fields.</h2>
           </div>
-          <div className='w-10/12'>
+          <div className='sm:w-10/12'>
             <Image width={1000} height={1000} alt='real-estate' src='/estate.jpg' className='h-full'/>
           </div>
       </div>
 
-      <div className='bg-gray-100 px-32 py-5'>
-        <div className='flex space-x-2  mx-auto pb-6 mt-10 '>
+      <div className='bg-gray-100 sm:px-32 sm:py-5 px-2 py-3 my-3'>
+        <div className='flex space-x-2 flex-col sm:flex-row mx-auto sm:pb-6 sm:mt-10 '>
           <div className=''>
-            <h2 className='text-4xl w-4/5 font-semibold text-burgundy'>Built for go-to-market teams, powered by AI</h2>
+            <h2 className='sm:text-4xl text-3xl sm:w-4/5  font-semibold text-burgundy'>Built for go-to-market teams, powered by AI</h2>
           </div>
           <div>
           <div className='flex flex-col space-y-1 font-normal'>
-              <h2 className='text-lg'>We believe in the power of video to foster human connections and empower go-to-market professionals to deliver trusted and productive buyer experiences.</h2>
-              <h2 className='text-lg'>We believe in the power of video to foster human connections and empower go-to-market professionals to deliver trusted and productive buyer experiences.</h2>
-              <h2 className='text-lg'>We believe in the power of video to foster human connections and empower go-to-market professionals to deliver trusted and productive buyer experiences.</h2>
+              <h2 className='text-lg'>Through our subsidiary companies, we expanded our reach into diverse industries, from furniture manufacturing to healthcare consulting, always guided by our commitment to excellence and sustainability.</h2>
+              <h2 className='text-lg'>As we grew, so did our impact. We became known not only for the quality of our products but also for our dedication to social responsibility and environmental conservation.</h2>
+              <h2 className='text-lg'>With a small team of dedicated individuals, our founder set out to build a company that would not only deliver high-quality products and services but also leave a positive impact on the world.</h2>
             </div>
           </div>
         </div>
         <hr />
-        <div className='mt-10 w-full'>
-          <div className='flex flex-row space-x-6'>
-            <div className='flex flex-col w-1/3 px-12'>
-              <h2 className='font-semibold mx-auto'>300+</h2>
-              <h2 className='text-sm font-light'>Since 2010, Vidyard has grown from a team of 2 to over 300.</h2>
+        <div className='sm:mt-10 mt-5 w-full'>
+          <div className='flex sm:flex-row flex-col sm:space-x-6'>
+            <div className='flex flex-col sm:w-1/3 px-12'>
+              <h2 className='font-semibold mx-auto '>300+</h2>
+              <h2 className='text-sm font-light text-center block'>ZEMY LLC has grown from a team of 2 to over 300.</h2>
             </div>
-            <div className='flex flex-col w-1/3 px-12'>
-              <h2 className='font-semibold block mx-auto'>300+</h2>
-              <h2 className='text-sm font-light text-center block'>Since 2010, Vidyard has grown from a team of 2 to over 300.</h2>
+            <div className='flex flex-col sm:w-1/3 px-12'>
+              <h2 className='font-semibold block mx-auto '>10</h2>
+              <h2 className='text-sm font-light text-center block'>ZEMY LLC stands tall as a beacon of quality and excellence. with 10 subsidary companies</h2>
             </div>
-            <div className='flex flex-col w-1/3 px-12'>
-              <h2 className='font-semibold mx-auto'>300+</h2>
-              <h2 className='text-sm font-light'>Since 2010, Vidyard has grown from a team of 2 to over 300.</h2>
+            <div className='flex flex-col sm:w-1/3 px-12'>
+              <h2 className='font-semibold mx-auto '>300+</h2>
+              <h2 className='text-sm font-light text-center block'>ZEMY LLC serves over 1000 consumers across various branches.</h2>
             </div>
           </div>
         </div>
       </div>
 
-      <div className='my-10 mx-auto flex flex-col align-items-center justify-center'>
-        <div className='flex flex-row space-x-7 w-3/4 mx-auto justify-around'>
+      <div className='sm:my-10 mx-auto flex-col align-items-center justify-center'>
+        <div className='flex flex-col sm:flex-row sm:space-x-7 px-2 sm:w-3/4 mx-auto justify-around'>
           <div>
             <Image
               height={2400}
@@ -60,15 +60,15 @@ const page = () => {
             />
           </div>
           <div className='align-middle my-auto'>
-            <h1 className='text-2xl font-extrabold'>Our Mission: Helping Millions of Organizations Grow Better</h1>
-            <h2 className='text-base'>We believe not just in growing bigger, but in growing better. And growing better means aligning the success of your own business with the success of your customers. Win-win!</h2>
+            <h1 className='text-2xl font-extrabold'>Our Mission: Helping Millions Grow Better</h1>
+            <h2 className='text-base'>is to pioneer innovative solutions across diverse industries while upholding a steadfast commitment to sustainability, excellence, and social responsibility. Through our subsidiaries and strategic partnerships, we strive to</h2>
           </div>
         </div>
 
-        <div className='flex flex-row space-x-20 w-3/4 mx-auto justify-around mt-20'>
+        <div className='flex sm:flex-row flex-col-reverse sm:space-x-20 space-y-8 sm:w-3/4 mx-auto px-2 sm:justify-around sm:mt-20'>
         <div className='align-middle my-auto'>
             <h1 className='text-2xl font-extrabold'>Our Story</h1>
-            <h2 className='text-base'>We believe not just in growing bigger, but in growing better. And growing better means aligning the success of your own business with the success of your customers. Win-win!</h2>
+            <h2 className='text-base'>Driven by a deep-rooted belief in ethical business practices and environmental stewardship we bridge the gap between sustainable agriculture, pet wellness, healthcare, real estate, and beyond.</h2>
           </div>
 
           <div>
@@ -84,53 +84,56 @@ const page = () => {
         </div>
       </div>
 
-      <div className='mx-auto bg-gray-100 py-10 my-10'>
+      <div className='mx-auto bg-gray-100 sm:py-10 sm:my-10'>
         <h2 className='text-center text-3xl font-bold'>ZEMY By The Numbers</h2>
         
-        <div className='flex flex-row space-x-20 mx-auto py-4 px-36'>
-        <div className='flex flex-col justify-center p-12 bg-white rounded-md'>
+        <div className='flex flex-col sm:flex-row space-y-5 sm:space-x-28 sm:space-y-0 sm:mx-auto mx-10 py-8 sm:py-4 sm:px-36'>
+        <div className='flex flex-col justify-center space-y-6 sm:p-7 p-4 bg-white rounded-md '>
           <Image
             src='/people1.svg'
-            height={200}
-            width={200}
+            height={140}
+            width={140}
             alt=''
+            className='mx-auto'
           />
           <div className='text-2xl font-semibold'>
             12 global Offices
           </div>
         </div>
 
-        <div className='flex flex-col justify-center p-12 bg-white rounded-md '>
+        <div className='flex flex-col justify-center space-y-6 sm:p-7 p-4 bg-white rounded-md '>
           <Image
             src='/people2.svg'
-            height={200}
-            width={200}
+            height={140}
+            width={140}
             alt=''
+            className='mx-auto'
           />
           <div className='text-2xl font-semibold'>
-            12 global Offices
+            7,600+ Employees
           </div>
         </div>
 
-        <div className='flex flex-col justify-center p-12 bg-white rounded-md'>
+        <div className='flex flex-col justify-center space-y-6 sm:p-7 p-4 bg-white rounded-md '>
           <Image
             src='/people3.svg'
-            height={200}
-            width={200}
+            height={140}
+            width={140}
             alt=''
+            className='mx-auto'
           />
           <div className='text-2xl font-semibold'>
-            12 global Offices
+            20,000+ Customers
           </div>
         </div>
 
         </div>
       </div>
 
-      <div className="w-3/4 flex flex-row space-x-0 mx-auto my-8">
+    <div className="sm:w-3/4 flex sm:flex-row flex-col-reverse sm:space-x-0 my-5 mx-2 sm:mx-auto sm:my-8">
     <div className=" bg-burgundy text-white ">
-      <div className="p-28">
-        <h3 className="text-3xl font-extralight mb-6">Interested about Our Products & Services</h3>
+      <div className="sm:p-28 p-5">
+        <h3 className="sm:text-3xl text-xl font-extralight mb-6">Interested about Our Products & Services</h3>
         <Link href='/contact-Us' className="mt-6 py-2 px-12 bg-blue-600 rounded-full hover:text-burgundy hover:border-blue-600 hover:bg-white hover:transition-all">Contact Us</Link>
       </div>
     </div>
