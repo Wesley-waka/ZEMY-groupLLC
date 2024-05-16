@@ -9,7 +9,7 @@ const page = () => {
         {/* <div className='relative'> */}
           <Image src='/std.jpg' height={1000} width={1000} className='h-screen w-full relative' alt='manufacturing-comp'/>
         {/* </div> */}
-        <div className="absolute inset-0 bg-lurgundy bg-opacity-50 h-full ">
+        <div className="absolute inset-0 bg-lurgundy bg-opacity-50 h-screen">
               <div className="text-center  sm:mt-12 px-7 sm:">
                 <p className="text-3xl sm:text-7xl text-cream font-extrabold sm:mb-24 sm:mr-96 absolute sm:left-10 sm:bottom-64 bottom-72 text-start leading-10 sm:w-2/3 tracking-wider">Bully Stick<br/> <span className='mt-4 border-b-2 pb-1  border-white'>Manufacturing</span></p>
                 <p className=" text-cream sm:text-2xl text-lg tracking-wide text-start w-72 sm:w-1/2 sm:mb-24 sm:mr-96 absolute sm:left-10 sm:mt-8 font-extralight sm:bottom-16 bottom-12">At the forefront of our industry, we take pride in our commitment to enhancing the well-being of pets by offering conscientious, eco-friendly, and superior products</p>

@@ -38,22 +38,23 @@ const Footer = () => {
 
       <div className='flex flex-col space-y-3'>
         <div className='text-3xl font-extrabold'>Navigation</div>
-        <Link href='#'>Home</Link>
-        <Link href='#'>Services</Link>
-        <Link href='#'>News</Link>
-        <Link href='#'>About Us</Link>
-        <Link href='#'>Contact Us</Link>
+        <Link href='/'>Home</Link>
+        <Link href='/service/pharmaceuticals'>Pharmaceuticals</Link>
+        <Link href='/service/manufacturing'>Manufacturing</Link>
+        <Link href='/service/real-estate'>Real Estate</Link>
+        <Link href='/about-us'>About Us</Link>
+        <Link href='/contact-us'>Contact Us</Link>
       </div>
 
       <div className='flex flex-col space-y-3'>
         <div className='text-3xl font-extrabold'>Get in touch</div>
         <div className='flex flex-row space-x-3'>
           <FiMapPin size={20}/>
-          <div>Nairobi,Kenya</div>
+          <div>147 W 35th St,New York,NY 10001</div>
         </div>
         <div className='flex flex-row space-x-3'>
           <IoCallOutline size={20}/>
-          <div>+1 (917)-06990</div>
+          <div>+1(917) 6094-597</div>
         </div>
         <div className='flex flex-row space-x-3'>
           <CiMail size={20}/>

@@ -105,11 +105,9 @@ const Navbar = () => {
             <Link href='/' onClick={closeSidebar}><button className="block text-base capitalize px-6 py-4 text-gray-500 transition duration-300 hover:bg-grey-10 hover:text-grey-2">Home</button></Link>
           </li>
           <li >
-            <Link href='/' onClick={closeSidebar}><button className="block text-base capitalize px-6 py-4 text-gray-500 transition duration-300 hover:bg-grey-10 hover:text-grey-2">About Us</button></Link>
+            <Link href='/about-us' onClick={closeSidebar}><button className="block text-base capitalize px-6 py-4 text-gray-500 transition duration-300 hover:bg-grey-10 hover:text-grey-2">About Us</button></Link>
           </li>
-          <li >
-            <Link href='/' onClick={closeSidebar}><button className="block text-base capitalize px-6 py-4 text-gray-500 transition duration-300 hover:bg-grey-10 hover:text-grey-2">Contact Us</button></Link>
-          </li>
+
           <li>
           <div className='flex flex-row space-x-6 align-middle cursor-pointer text-base capitalize  px-6 py-4 text-gray-500 transition duration-300 hover:bg-grey-10 hover:text-grey-2' onClick={toggleDropdown}>Service{isOpen ? (
               <div>
@@ -120,8 +118,8 @@ const Navbar = () => {
               </div>) }
               </div>
             {isOpen && (
-            <div className=" mt-2 w-48 bg-white rounded-lg shadow-xl z-10">
-            <ul className='flex flex-col space-y-3'>
+            <div className=" mt-2 w-48 bg-white  z-10">
+            <ul className='flex flex-col space-y-3 mx-10'>
             <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer transition-colors duration-300">
               <Link href='/services/pharmaceuticals'>Pharmaceuticals</Link>
             </li>
@@ -133,6 +131,10 @@ const Navbar = () => {
             </li>
           </ul>
             </div>)}
+          </li>
+
+          <li >
+            <Link href='/contact-us' onClick={closeSidebar}><button className="block text-base capitalize px-6 py-4 text-gray-500 transition duration-300 hover:bg-grey-10 hover:text-grey-2">Contact Us</button></Link>
           </li>
         {/* ))} */}
       </ul>
