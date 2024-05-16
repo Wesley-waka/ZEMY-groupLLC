@@ -7,7 +7,7 @@ const page = () => {
     <div>
       <div className=''>
         {/* <div className='relative'> */}
-          <Image src='/std.jpg' height={1000} width={1000} className='h-screen w-full relative' alt='manufacturing-comp'/>
+          <Image src='/manf.png' height={1000} width={900} className='h-screen w-full relative' alt='manufacturing-comp'/>
         {/* </div> */}
         <div className="absolute inset-0 bg-lurgundy bg-opacity-50 h-screen">
               <div className="text-center  sm:mt-12 px-7 sm:">
@@ -28,11 +28,13 @@ const page = () => {
 
     <div className='bg-white sm:py-6 py-3'>
       <div className=' '>
-        <div className='sm:h-80 flex sm:flex-row flex-col justify-around sm:w-11/12  sm:px-8 px-2'>
-          <Image height={1200} width={560} src='/std.jpg' alt=''/>
+
+
+      <div className='sm:h-80 h-screen flex sm:flex-row flex-col justify-around sm:w-11/12  sm:px-8 px-2'>
+          <Image height={1200} width={560} src='/manf-8.png' alt=''/>
           <div className='sm:w-2/5 py-4'>
             <h2>Commitment to Quality</h2>
-            <p className='font-light '>
+            <p className='font-light leading-7'>
             Quality is not just a standard; it&apos;s our promise. We meticulously source our ingredients, ensuring only the highest standards of safety and nutrition for your furry friends. Our bully sticks are crafted from the finest Kenyan beef, free from artificial additives, preservatives, or harmful chemicals.
             </p>
           </div>
@@ -43,11 +45,11 @@ const page = () => {
         <div className='sm:h-80 flex sm:flex-row flex-col-reverse justify-around sm:w-11/12 sm:space-x-11 sm:px-8 px-2'>
           <div className='sm:w-2/5 py-4'>
             <h2>Ethical and Sustainable Practices</h2>
-            <p className='font-light '>
+            <p className='font-light leading-7'>
             As stewards of the environment, we are committed to sustainability at every step of our manufacturing process. Our bully sticks are responsibly sourced from local Kenyan farmers who adhere to ethical and humane farming practices. 
             </p>
           </div>
-          <Image height={1200} width={560} src='/std.jpg' alt=''/>
+          <Image height={500} width={560} src='/manf-1.png' alt=''/>
         </div>
       </div>
       </div>
@@ -55,8 +57,8 @@ const page = () => {
       <div className=' bg-blue-600 sm:py-8 sm:px-16 px-2 py-4'>
         <h1 className='text-center font-medium text-white'>Our Portfolio</h1>
         <div className='flex sm:flex-row flex-col space-y-2 sm:space-x-12'>
-          <Image height={1200} width={560} src='/std.jpg' alt=''/>
-          <p className='font-extralight  text-lg sm:w-2/5 text-white'>
+          <Image height={500} width={560} src='/prod-1.png' alt=''/>
+          <p className='font-extralight  text-lg sm:w-2/5 text-white tracking-wide leading-9'>
           Beyond crafting exceptional products, we are dedicated to making a positive impact on the communities we serve. Through partnerships with local shelters and animal welfare organizations, we actively support initiatives that promote pet adoption, responsible pet ownership, and animal welfare education. 
           </p>
         </div>
