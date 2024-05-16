@@ -9,10 +9,18 @@ import { FaTruckMedical } from "react-icons/fa6";
 const page = () => {
   return (
     <div>
-        <div>
-            <Image src='/pharm-1.jpg' alt='pharmaceuticals' height={1200} width={1200} className='w-full sm:h-full h-64 relative'/>
+        <div className='hidden sm:block'>
+            <Image src='/pharm-1.jpg' alt='pharmaceuticals' height={1200} width={1200} className='w-full sm:h-full h-64 relative '/>
             <div className='absolute inset-0 bg-rose-900 sm:bg-inherit  sm:text-burgundy bg-opacity-60 h-64 sm:top-24 sm:w-6/12 sm:px-8 top-0 py-12 px-2'>
                 <h1 className='sm:font-semibold font-bold text-white sm:text-inherit sm:text-3xl text-3xl'>MEDLINK LLC</h1>
+                <h4 className='font-light text-base sm:tracking-wide tracking-normal text-white sm:text-gray-900'>Medlink World LLC is a healthcare and CRO consulting firm which champions itself in clinical data generation for medical devices that needs FDA registration. It also has vast distributorship network to distribute medical devices approved by FDA.</h4>
+            </div>
+        </div>
+
+         <div className='block sm:hidden'>
+            <Image src='/banner-img.jpg' alt='pharmaceuticals' height={1200} width={1200} className='w-full h-96 relative'/>
+            <div className='absolute   h-64  top-20 py-12 px-2'>
+                <h1 className='sm:font-semibold font-bold text-rose-600 sm:text-inherit sm:text-3xl text-3xl'>MEDLINK LLC</h1>
                 <h4 className='font-light text-base sm:tracking-wide tracking-normal text-white sm:text-gray-900'>Medlink World LLC is a healthcare and CRO consulting firm which champions itself in clinical data generation for medical devices that needs FDA registration. It also has vast distributorship network to distribute medical devices approved by FDA.</h4>
             </div>
         </div>
