@@ -120,13 +120,13 @@ const Navbar = () => {
             {isOpen && (
             <div className=" mt-2 w-48 bg-white  z-10">
             <ul className='flex flex-col space-y-3 mx-10'>
-            <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer transition-colors duration-300">
+            <li className="px-4 py-2  cursor-pointer transition-colors duration-300">
               <Link href='/services/pharmaceuticals'>Pharmaceuticals</Link>
             </li>
-            <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer transition-colors duration-300">
+            <li className="px-4 py-2  cursor-pointer transition-colors duration-300">
               <Link href='/services/real-estate'>Real Estate</Link>
             </li>
-            <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer transition-colors duration-300">
+            <li className="px-4 py-2  cursor-pointer transition-colors duration-300">
               <Link href='/services/manufacturing'>Manufacturing</Link>
             </li>
           </ul>
