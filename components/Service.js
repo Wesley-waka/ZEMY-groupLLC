@@ -9,10 +9,10 @@ import styles from '@/styles/Hero.module.scss';
 const Service = () => {
   return (
     <div className={styles.section}>
-      <h2 className="text-center py-4 mx-auto  font-bold ">WHO WE ARE</h2>
-    <div className='sm:ml-40 sm:m-6 mx-4 xs:mt-10'>
-      <article className='header flex flex-row space-x-8 sm:my-7 text-burgundy xs:my-4'>
-        <h1 className='font-bold'>
+      <h2 className="text-center sm:py-4 mx-auto  font-bold ">WHO WE ARE</h2>
+    <div className='sm:ml-40 sm:m-6 mx-4 xs:mt-5'>
+      <article className='header flex flex-col sm:flex-row sm:space-x-8 sm:my-7 text-burgundy xs:my-4'>
+        <h1 className='font-bold text-3xl'>
         ZEMY Group  LLC, <br /> 
         </h1>
         <p className='sm:w-5/12'>

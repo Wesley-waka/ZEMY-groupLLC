@@ -5,27 +5,27 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <div className='flex flex-col space-y-4 mt-14 px-2 sm:flex-row sm:space-x-6 sm:mt-20 sm:mx-14 sm:py-10 align-middle justify-center'>
+      <div className='flex flex-col space-y-4 mt-14 px-2 sm:flex-row sm:space-x-6 sm:mt-20 sm:mx-14 sm:pt-10 align-middle justify-center'>
           <div className='sm:w-7/12'>
             <h1 className='text-sm font-light text-burgundy'>ABOUT US</h1>
             <h2 className='text-4xl font-extrabold'>Creating <span className='relative underline-after'>value</span> for sustainable business practices</h2>
-            <h2 className='text-base leading-7'>At ZEMY Group LLC we consider working with people for the best of their needs ensuring we deliver the right results to their benefits and financial homes.Under the ZEMY GROUP LLC umbrella, we nurture a diverse family of subsidiaries, each dedicated to excellence in their respective fields.</h2>
+            <h2 className='text-base sm:leading-7'>At ZEMY Group LLC we consider working with people for the best of their needs ensuring we deliver the right results to their benefits and financial homes.Under the ZEMY GROUP LLC umbrella, we nurture a diverse family of subsidiaries, each dedicated to excellence in their respective fields.</h2>
           </div>
-          <div className='sm:w-10/12'>
-            <Image width={1000} height={1000} alt='real-estate' src='/estate-1.jpg' className='h-72 sm:h-full '/>
+          <div className='sm:w-8/12'>
+            <Image width={1000} height={1000} alt='real-estate' src='/estate-1.jpg' className='h-72 sm:h-4/5 '/>
           </div>
       </div>
 
       <div className='bg-gray-100 sm:px-32 sm:py-5 px-2 py-3 my-3'>
         <div className='flex space-x-2 flex-col sm:flex-row mx-auto sm:pb-6 sm:mt-10 '>
           <div className=''>
-            <h2 className='sm:text-4xl text-3xl sm:w-4/5  font-semibold text-burgundy'>Built for go-to-market teams, powered by AI</h2>
+            <h2 className='sm:text-4xl text-3xl sm:w-4/5  font-semibold text-burgundy'>Drive Innovation & Deliver Quality Products and Services</h2>
           </div>
           <div>
-          <div className='flex flex-col space-y-1 font-normal'>
-              <h2 className='text-lg'>Through our subsidiary companies, we expanded our reach into diverse industries, from furniture manufacturing to healthcare consulting, always guided by our commitment to excellence and sustainability.</h2>
-              <h2 className='text-lg'>As we grew, so did our impact. We became known not only for the quality of our products but also for our dedication to social responsibility and environmental conservation.</h2>
-              <h2 className='text-lg'>With a small team of dedicated individuals, our founder set out to build a company that would not only deliver high-quality products and services but also leave a positive impact on the world.</h2>
+          <div className='flex flex-col sm:space-y-1 font-normal'>
+              <div className='text-lg sm:tracking-wider'>Through our subsidiary companies, we expanded our reach into diverse industries, from furniture manufacturing to healthcare consulting, always guided by our commitment to excellence and sustainability.</div>
+              <div className='text-lg sm:tracking-wider'>As we grew, so did our impact. We became known not only for the quality of our products but also for our dedication to social responsibility and environmental conservation.</div>
+              <div className='text-lg sm:tracking-wider'>With a small team of dedicated individuals, our founder set out to build a company that would not only deliver high-quality products and services but also leave a positive impact on the world.</div>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ const page = () => {
               <h2 className='text-sm font-light text-center block'>ZEMY LLC stands tall as a beacon of quality and excellence. with 10 subsidary companies</h2>
             </div>
             <div className='flex flex-col sm:w-1/3 px-12'>
-              <h2 className='font-semibold mx-auto '>300+</h2>
+              <h2 className='font-semibold mx-auto '>1000+</h2>
               <h2 className='text-sm font-light text-center block'>ZEMY LLC serves over 1000 consumers across various branches.</h2>
             </div>
           </div>
@@ -75,7 +75,7 @@ const page = () => {
             <Image
               height={2000}
               width={1600}
-              src='/lucas.jpg'
+              src='/prod-8.png'
               alt='house-rent'
               className='w-11/12 h-full'
             />

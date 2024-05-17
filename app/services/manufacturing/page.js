@@ -12,7 +12,7 @@ const page = () => {
         <div className="absolute inset-0 bg-lurgundy bg-opacity-50 h-screen">
               <div className="text-center  sm:mt-12 px-7 sm:">
                 <p className="text-3xl sm:text-7xl text-cream font-extrabold sm:mb-24 sm:mr-96 absolute sm:left-10 sm:bottom-64 bottom-72 text-start leading-10 sm:w-2/3 tracking-wider">Bully Stick<br/> <span className='mt-4 border-b-2 pb-1  border-white'>Manufacturing</span></p>
-                <p className=" text-cream sm:text-2xl text-lg tracking-wide text-start w-72 sm:w-1/2 sm:mb-24 sm:mr-96 absolute sm:left-10 sm:mt-8 font-extralight sm:bottom-16 bottom-12">At the forefront of our industry, we take pride in our commitment to enhancing the well-being of pets by offering conscientious, eco-friendly, and superior products</p>
+                <p className=" text-cream sm:text-2xl text-lg tracking-wide text-start w-72 sm:w-1/2 sm:mb-24 sm:mr-96 absolute sm:left-10 sm:mt-8 font-extralight bottom-16 ">At the forefront of our industry, we take pride in our commitment to enhancing the well-being of pets by offering conscientious, eco-friendly, and superior products</p>
               </div>
         </div>
       </div>
@@ -24,14 +24,14 @@ const page = () => {
         <div className="absolute inset-0 bg-lurgundy bg-opacity-50 h-screen">
               <div className="text-center  sm:mt-12 px-7 sm:">
                 <p className="text-3xl sm:text-7xl text-cream font-extrabold sm:mb-24 sm:mr-96 absolute sm:left-10 sm:bottom-64 bottom-72 text-start leading-10 sm:w-2/3 tracking-wider">Bully Stick<br/> <span className='mt-4 border-b-2 pb-1  border-white'>Manufacturing</span></p>
-                <p className=" text-cream sm:text-2xl text-lg tracking-wide text-start w-72 sm:w-1/2 sm:mb-24 sm:mr-96 absolute sm:left-10 sm:mt-8 font-extralight sm:bottom-16 bottom-12">At the forefront of our industry, we take pride in our commitment to enhancing the well-being of pets by offering conscientious, eco-friendly, and superior products</p>
+                <p className=" text-cream sm:text-2xl text-lg tracking-wide text-start w-72 sm:w-1/2 sm:mb-24 sm:mr-96 absolute sm:left-10 sm:mt-8 font-extralight bottom-20">At the forefront of our industry, we take pride in our commitment to enhancing the well-being of pets by offering conscientious, eco-friendly, and superior products</p>
               </div>
         </div>
       </div>
 
       <div className='bg-gray-100 '>
         <div className=' sm:w-2/5 text-center mx-auto sm:py-12 px-2 py-4'>
-          <h2>ZEMY GROUP GLOBAL LIMITED</h2>
+          <h2 className='text-2xl text-burgundy'>ZEMY GROUP GLOBAL LIMITED</h2>
           <p className=' text-center font-light'>
           Nestled in the heart of Kenya, we take pride in being a leading manufacturer of premium bully sticks, dedicated to the happiness and health of your beloved pets. Our journey began with a simple mission: to provide dogs with the finest, all-natural treats while contributing positively to our local community and environment.
           </p>
@@ -45,7 +45,7 @@ const page = () => {
       <div className='sm:h-80 h-screen flex sm:flex-row flex-col justify-around sm:w-11/12  sm:px-8 px-2'>
           <Image height={1200} width={560} src='/manf-8.png' alt=''/>
           <div className='sm:w-2/5 py-4'>
-            <h2>Commitment to Quality</h2>
+            <h2 className='text-4xl font-light text-blue-600'>Commitment to Quality</h2>
             <p className='font-light leading-7'>
             Quality is not just a standard; it&apos;s our promise. We meticulously source our ingredients, ensuring only the highest standards of safety and nutrition for your furry friends. Our bully sticks are crafted from the finest Kenyan beef, free from artificial additives, preservatives, or harmful chemicals.
             </p>
@@ -56,12 +56,12 @@ const page = () => {
       <div className=' '>
         <div className='sm:h-80 flex sm:flex-row flex-col-reverse justify-around sm:w-11/12 sm:space-x-11 sm:px-8 px-2'>
           <div className='sm:w-2/5 py-4'>
-            <h2>Ethical and Sustainable Practices</h2>
+            <h2 className='text-4xl font-light text-blue-600'>Ethical and Sustainable Practices</h2>
             <p className='font-light leading-7'>
             As stewards of the environment, we are committed to sustainability at every step of our manufacturing process. Our bully sticks are responsibly sourced from local Kenyan farmers who adhere to ethical and humane farming practices. 
             </p>
           </div>
-          <Image height={500} width={560} src='/manf-1.png' alt=''/>
+          <Image height={620} width={560} src='/manf-1.png' alt=''/>
         </div>
       </div>
       </div>

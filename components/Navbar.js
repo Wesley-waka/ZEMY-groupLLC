@@ -43,9 +43,9 @@ const Navbar = () => {
   };
   return (
     <div style={navbarStyle} className='top-0 flex justify-between sm:px-20 px-6 sm:py-5 py-2 bg-gray-100 bg-opacity-80  fixed w-full mt-0 sm:align-middle z-20'>
-        <div>
-            <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className=' sm:h-10 sm:w-20 h-8 w-10 left-5 absolute' />
-        </div>
+        <Link href='/'>
+            <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='sm:h-10 sm:w-20 h-8 w-10 left-5 absolute'/>
+        </Link>
         <div className="sm:flex space-x-10 text-burgundy hidden">
             <Link href='/'>Home</Link>
             <Link href='/about-us'>About us</Link>
@@ -94,9 +94,9 @@ const Navbar = () => {
               <Image
                 src='/logo.png'
                 alt='elite-bully-sticks-facebook'
-                height={200}
+                height={80}
                 width={70}
-                className='h-20 w-20 mx-auto'
+                className=' mx-auto'
               />
       </Link>
       <ul className="links mb-8 mx-auto">
@@ -121,13 +121,13 @@ const Navbar = () => {
             <div className=" mt-2 w-48 bg-white  z-10">
             <ul className='flex flex-col space-y-3 mx-10'>
             <li className="px-4 py-2  cursor-pointer transition-colors duration-300">
-              <Link href='/services/pharmaceuticals'>Pharmaceuticals</Link>
+              <Link href='/services/pharmaceuticals' onClick={closeSidebar}>Pharmaceuticals</Link>
             </li>
             <li className="px-4 py-2  cursor-pointer transition-colors duration-300">
-              <Link href='/services/real-estate'>Real Estate</Link>
+              <Link href='/services/real-estate' onClick={closeSidebar}>Real Estate</Link>
             </li>
             <li className="px-4 py-2  cursor-pointer transition-colors duration-300">
-              <Link href='/services/manufacturing'>Manufacturing</Link>
+              <Link href='/services/manufacturing' onClick={closeSidebar}>Manufacturing</Link>
             </li>
           </ul>
             </div>)}
