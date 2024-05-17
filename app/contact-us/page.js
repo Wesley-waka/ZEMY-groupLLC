@@ -54,7 +54,7 @@ const page = () => {
                 <h2 className='text-3xl font-semibold'>Send Message</h2>
                 <div className='text-sm font-light'>Interested about our products and services.Get in touch with our team to learn more about ZEMY LLC</div>
               </div>
-              <form className='flex flex-col sm:space-y-6 space-y-2 my-2'>
+              <form className='flex flex-col sm:space-y-6 space-y-4 my-2'>
                 <div className='flex sm:flex-row sm:space-x-1 space-y-2 sm:space-y-0 flex-col'>
                   <input placeholder='First Name' className='border sm:w-1/2 rounded-lg px-2 py-2' />
                   <input placeholder='Last Name' className='border sm:w-1/2 rounded-lg px-2 py-2'/>

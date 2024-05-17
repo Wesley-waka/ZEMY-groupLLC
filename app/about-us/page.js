@@ -60,14 +60,14 @@ const page = () => {
             />
           </div>
           <div className='align-middle my-auto'>
-            <h1 className='text-2xl font-extrabold'>Our Mission: Helping Millions Grow Better</h1>
+            <h1 className='text-2xl font-extrabold'><span className='text-burgundy'>Our Mission</span>: Helping Millions Grow Better</h1>
             <h2 className='text-base'>is to pioneer innovative solutions across diverse industries while upholding a steadfast commitment to sustainability, excellence, and social responsibility. Through our subsidiaries and strategic partnerships, we strive to</h2>
           </div>
         </div>
 
         <div className='flex sm:flex-row flex-col-reverse sm:space-x-20 space-y-8 sm:w-3/4 mx-auto px-2 sm:justify-around sm:mt-20'>
         <div className='align-middle my-auto'>
-            <h1 className='text-2xl font-extrabold'>Our Story</h1>
+            <h1 className='text-2xl font-extrabold text-burgundy'>Our Story</h1>
             <h2 className='text-base'>Driven by a deep-rooted belief in ethical business practices and environmental stewardship we bridge the gap between sustainable agriculture, pet wellness, healthcare, real estate, and beyond.</h2>
           </div>
 
