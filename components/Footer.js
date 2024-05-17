@@ -39,9 +39,9 @@ const Footer = () => {
       <div className='flex flex-col space-y-3'>
         <div className='text-3xl font-extrabold'>Navigation</div>
         <Link href='/'>Home</Link>
-        <Link href='/service/pharmaceuticals'>Pharmaceuticals</Link>
-        <Link href='/service/manufacturing'>Manufacturing</Link>
-        <Link href='/service/real-estate'>Real Estate</Link>
+        <Link href='/services/pharmaceuticals'>Pharmaceuticals</Link>
+        <Link href='/services/manufacturing'>Manufacturing</Link>
+        <Link href='/services/real-estate'>Real Estate</Link>
         <Link href='/about-us'>About Us</Link>
         <Link href='/contact-us'>Contact Us</Link>
       </div>
