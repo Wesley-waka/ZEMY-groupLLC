@@ -55,11 +55,11 @@ const page = () => {
                 <div className='text-sm font-light'>Interested about our products and services.Get in touch with our team to learn more about ZEMY LLC</div>
               </div>
               <form className='flex flex-col sm:space-y-6 space-y-4 my-2'>
-                <div className='flex sm:flex-row sm:space-x-1 space-y-2 sm:space-y-0 flex-col'>
+                <div className='flex sm:flex-row sm:space-x-1 space-y-4 sm:space-y-0 flex-col'>
                   <input placeholder='First Name' className='border sm:w-1/2 rounded-lg px-2 py-2' />
                   <input placeholder='Last Name' className='border sm:w-1/2 rounded-lg px-2 py-2'/>
                 </div>
-                <div className='flex sm:flex-row sm:space-x-1 flex-col space-y-2 sm:space-y-0'>
+                <div className='flex sm:flex-row sm:space-x-1 flex-col space-y-4 sm:space-y-0'>
                   <input placeholder='Email' className='border sm:w-1/2 rounded-lg px-2 py-2' />
                   <input placeholder='Phone Number' className='border sm:w-1/2 rounded-lg px-2 py-2'/>
                 </div>

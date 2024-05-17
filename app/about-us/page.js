@@ -60,7 +60,7 @@ const page = () => {
             />
           </div>
           <div className='align-middle my-auto'>
-            <h1 className='text-2xl font-extrabold'><span className='text-burgundy'>Our Mission</span>: Helping Millions Grow Better</h1>
+            <h1 className='text-2xl font-extrabold text-blue-600'><span className='text-burgundy'>Our Mission</span>: Helping Millions Grow Better</h1>
             <h2 className='text-base'>is to pioneer innovative solutions across diverse industries while upholding a steadfast commitment to sustainability, excellence, and social responsibility. Through our subsidiaries and strategic partnerships, we strive to</h2>
           </div>
         </div>
@@ -85,7 +85,7 @@ const page = () => {
       </div>
 
       <div className='mx-auto bg-gray-100 sm:py-10 sm:my-10'>
-        <h2 className='text-center text-3xl font-bold'>ZEMY By The Numbers</h2>
+        <h2 className='text-center text-3xl font-bold text-burgundy'>ZEMY By The Numbers</h2>
         
         <div className='flex flex-col sm:flex-row space-y-5 sm:space-x-28 sm:space-y-0 sm:mx-auto mx-10 py-8 sm:py-4 sm:px-36'>
         <div className='flex flex-col justify-center space-y-6 sm:p-7 p-4 bg-white rounded-md '>
