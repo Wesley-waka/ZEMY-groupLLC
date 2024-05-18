@@ -26,7 +26,7 @@ const page = () => {
                 </div>
                 <div className='text-sm flex-col space-y-1 justify-center'>
                   <div className='text-sm'>Phone Number</div>
-                  <div className='text-sm'>0700704489</div>
+                  <div className='text-sm'>+1(917) 6094-597</div>
                 </div>
               </div>
               <div className='bg-white flex py-4 px-2 space-x-4'>
