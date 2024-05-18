@@ -87,7 +87,7 @@ const page = () => {
                 <h1 className='font-semibold sm:text-5xl sm:w-9/12 tracking-wider'>
                     Unparalleled Luxury: Find Your new home today !
                 </h1>
-                <div className='sm:w-9/12 tracking-wide leading-7'>We transcend mere construction crafting sanctuaries of Unparalleled elegance and innovation.Our discerning clientele envision a life of distinction,and we translate their aspirations into bespoke havens that redefine luxury living</div>
+                <div className='sm:w-9/12  sm:leading-7 leading-6 sm:tracking-wider tracking-normal'>We transcend mere construction crafting sanctuaries of Unparalleled elegance and innovation.Our discerning clientele envision a life of distinction,and we translate their aspirations into bespoke havens that redefine luxury living</div>
             </div>
             <div className='sm:mt-12'>
                 <Image src='/her-estate.jpg' width={2800} height={2400} alt='real' className='sm:h-screen h-3/4'/>

@@ -5,18 +5,18 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <div className='flex flex-col space-y-4 mt-14 px-2 sm:flex-row sm:space-x-6 sm:mt-20 sm:mx-14 sm:pt-10 align-middle justify-center'>
+      <div className='flex flex-col space-y-4 mt-14 mx-4 sm:flex-row sm:space-x-6 sm:mt-20 sm:mx-14 sm:pt-10 align-middle justify-center'>
           <div className='sm:w-7/12'>
             <h1 className='text-sm font-light text-burgundy'>ABOUT US</h1>
-            <h2 className='text-4xl font-extrabold'>Creating <span className='relative underline-after'>value</span> for sustainable business practices</h2>
-            <h2 className='text-base sm:leading-7'>At ZEMY Group LLC we consider working with people for the best of their needs ensuring we deliver the right results to their benefits and financial homes.Under the ZEMY GROUP LLC umbrella, we nurture a diverse family of subsidiaries, each dedicated to excellence in their respective fields.</h2>
+            <h2 className='text-2xl sm:text-4xl font-extrabold'>Creating <span className='relative underline-after'>value</span> for sustainable business practices</h2>
+            <h2 className='text-base sm:leading-7 leading-6 sm:tracking-wider tracking-normal'>At ZEMY Group LLC we consider working with people for the best of their needs ensuring we deliver the right results to their benefits and financial homes.Under the ZEMY GROUP LLC umbrella, we nurture a diverse family of subsidiaries, each dedicated to excellence in their respective fields.</h2>
           </div>
           <div className='sm:w-8/12'>
             <Image width={1000} height={1000} alt='real-estate' src='/estate-1.jpg' className='h-72 sm:h-4/5 '/>
           </div>
       </div>
 
-      <div className='bg-gray-100 sm:px-32 sm:py-5 px-2 py-3 my-3'>
+      <div className='bg-gray-100 sm:px-32 sm:py-5 px-4 py-3 my-3'>
         <div className='flex space-x-2 flex-col sm:flex-row mx-auto sm:pb-6 sm:mt-10 '>
           <div className=''>
             <h2 className='sm:text-4xl text-3xl sm:w-4/5  font-semibold text-burgundy'>Drive Innovation & Deliver Quality Products and Services</h2>
@@ -48,7 +48,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className='sm:my-10 mx-auto flex-col align-items-center justify-center'>
+      <div className='sm:my-10 sm:mx-auto mx-4 flex-col align-items-center justify-center'>
         <div className='flex flex-col sm:flex-row sm:space-x-7 px-2 sm:w-3/4 mx-auto justify-around'>
           <div>
             <Image
@@ -60,15 +60,15 @@ const page = () => {
             />
           </div>
           <div className='align-middle my-auto'>
-            <h1 className='text-2xl font-extrabold text-blue-600'><span className='text-burgundy'>Our Mission</span>: Helping Millions Grow Better</h1>
-            <h2 className='text-base'>is to pioneer innovative solutions across diverse industries while upholding a steadfast commitment to sustainability, excellence, and social responsibility. Through our subsidiaries and strategic partnerships, we strive to</h2>
+            <h1 className='text-xl sm:text-2xl font-extrabold text-blue-600'><span className='text-burgundy'>Our Mission:</span> Helping Millions Grow Better</h1>
+            <h2 className='text-base sm:leading-7 leading-6 sm:tracking-wider tracking-normal'>is to pioneer innovative solutions across diverse industries while upholding a steadfast commitment to sustainability, excellence, and social responsibility. Through our subsidiaries and strategic partnerships, we strive to</h2>
           </div>
         </div>
 
         <div className='flex sm:flex-row flex-col-reverse sm:space-x-20 space-y-8 sm:w-3/4 mx-auto px-2 sm:justify-around sm:mt-20'>
         <div className='align-middle my-auto'>
             <h1 className='text-2xl font-extrabold text-burgundy'>Our Story</h1>
-            <h2 className='text-base'>Driven by a deep-rooted belief in ethical business practices and environmental stewardship we bridge the gap between sustainable agriculture, pet wellness, healthcare, real estate, and beyond.</h2>
+            <h2 className='text-base sm:leading-7 leading-6 sm:tracking-wider tracking-normal'>Driven by a deep-rooted belief in ethical business practices and environmental stewardship we bridge the gap between sustainable agriculture, pet wellness, healthcare, real estate, and beyond.</h2>
           </div>
 
           <div>
@@ -85,7 +85,7 @@ const page = () => {
       </div>
 
       <div className='mx-auto bg-gray-100 sm:py-10 sm:my-10'>
-        <h2 className='text-center text-3xl font-bold text-burgundy'>ZEMY By The Numbers</h2>
+        <h2 className='text-center sm:text-3xl text-2xl font-bold text-burgundy'>ZEMY By The Numbers</h2>
         
         <div className='flex flex-col sm:flex-row space-y-5 sm:space-x-28 sm:space-y-0 sm:mx-auto mx-10 py-8 sm:py-4 sm:px-36'>
         <div className='flex flex-col justify-center space-y-6 sm:p-7 p-4 bg-white rounded-md '>

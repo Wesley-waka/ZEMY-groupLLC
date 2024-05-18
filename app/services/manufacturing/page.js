@@ -46,7 +46,7 @@ const page = () => {
           <Image height={1200} width={560} src='/manf-8.png' alt=''/>
           <div className='sm:w-2/5 py-4'>
             <h2 className='text-4xl font-light text-blue-600'>Commitment to Quality</h2>
-            <p className='font-light leading-7'>
+            <p className='font-light sm:leading-7 leading-6 sm:tracking-wider tracking-normal'>
             Quality is not just a standard; it&apos;s our promise. We meticulously source our ingredients, ensuring only the highest standards of safety and nutrition for your furry friends. Our bully sticks are crafted from the finest Kenyan beef, free from artificial additives, preservatives, or harmful chemicals.
             </p>
           </div>
@@ -57,7 +57,7 @@ const page = () => {
         <div className='sm:h-80 flex sm:flex-row flex-col-reverse justify-around sm:w-11/12 sm:space-x-11 sm:px-8 px-2'>
           <div className='sm:w-2/5 py-4'>
             <h2 className='text-4xl font-light text-blue-600'>Ethical and Sustainable Practices</h2>
-            <p className='font-light leading-7'>
+            <p className='font-light sm:leading-7 leading-6 sm:tracking-wider tracking-normal'>
             As stewards of the environment, we are committed to sustainability at every step of our manufacturing process. Our bully sticks are responsibly sourced from local Kenyan farmers who adhere to ethical and humane farming practices. 
             </p>
           </div>
@@ -70,7 +70,7 @@ const page = () => {
         <h1 className='text-center font-medium text-white'>Our Portfolio</h1>
         <div className='flex sm:flex-row flex-col space-y-2 sm:space-x-12'>
           <Image height={500} width={560} src='/prod-1.png' alt=''/>
-          <p className='font-extralight  text-lg sm:w-2/5 text-white tracking-wide leading-9'>
+          <p className='font-extralight  text-lg sm:w-2/5 text-white sm:leading-8 leading-6 sm:tracking-widest tracking-normal'>
           Beyond crafting exceptional products, we are dedicated to making a positive impact on the communities we serve. Through partnerships with local shelters and animal welfare organizations, we actively support initiatives that promote pet adoption, responsible pet ownership, and animal welfare education. 
           </p>
         </div>

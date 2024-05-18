@@ -25,7 +25,7 @@ const page = () => {
             </div>
         </div>
 
-        <div className='flex sm:flex-row flex-col align-middle justify-center'>
+        <div className='flex sm:flex-row flex-col align-middle justify-center mx-4 sm:mx-auto'>
             <Image src='/doctor.png' width={600} height={600} alt='doctor'/>
             <div className='sm:my-auto sm:mx-20 mx-3'>
                 <h2 className='font-semibold text-burgundy text-3xl'>Complete Medical Solutions in One Place</h2>
@@ -33,7 +33,7 @@ const page = () => {
             </div>
         </div>
 
-        <div className=' bg-gray-100 text-center py-5'>
+        <div className=' bg-gray-100 text-center py-5 px-4 sm:px-auto'>
             <h1 className='text-3xl font-semibold text-burgundy'>Total Health Care Solutions</h1>
             <h5 className='sm:w-3/4  mx-auto font-normal'>MedLink simplifies medical processes, but it also holds the potential to improve the patient experience significantly.</h5>
             <div className='flex sm:flex-row flex-col sm:my-10 my-4 sm:space-x-16 space-y-3 sm:mx-14 mx-2'>
@@ -71,12 +71,12 @@ const page = () => {
             </div>
         </div>
 
-        <div className='flex sm:flex-row flex-col-reverse align-middle justify-center sm:mx-16 sm:py-5'>
+        <div className='flex sm:flex-row flex-col-reverse align-middle justify-center mx-4 sm:mx-16 sm:py-5'>
 
         <div className='sm:w-3/4 px-2'>
-            <h2 className='text-2xl font-bold text-burgundy'>Facility with Innovative Approach to Treatment</h2>
+            <h2 className='text-xl sm:text-2xl font-bold text-burgundy'>Facility with Innovative Approach to Treatment</h2>
             <div className='text-lg'>Medlink World LLC stands as a stalwart in the realm of healthcare and Clinical Research Organization (CRO) consulting. </div>
-            <h2 className='text-2xl font-bold text-burgundy mt-4'>Highest Quality Services</h2>
+            <h2 className='text-xl sm:text-2xl font-bold text-burgundy mt-4'>Highest Quality Services</h2>
             <p>
             <span style={{color: 'rgb(29, 62, 104)'}}>》</span>Expansive distributorship network, ensuring that FDA-approved medical devices reach the hands of those who need them most.<br/><br/>
 <span style={{color: 'rgb(29, 62, 104)'}}>》</span>From study and site planning to fast initiation and comprehensive site coverage analysis, their strategies not only expedite timelines but also enhance study quality<br/><br/>

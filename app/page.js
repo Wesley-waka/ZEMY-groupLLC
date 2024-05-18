@@ -147,7 +147,7 @@ export default function Home() {
 
     </div>
 
-    <div className="sm:w-3/4 flex sm:flex-row flex-col-reverse sm:space-x-0 my-5 mx-2 sm:mx-auto sm:my-8">
+    <div className="sm:w-3/4 flex sm:flex-row flex-col-reverse sm:space-x-0 my-5 mx-4 sm:mx-auto sm:my-8">
     <div className=" bg-burgundy text-white ">
       <div className="sm:p-28 p-5">
         <h3 className="sm:text-3xl text-xl font-extralight mb-6">Interested about Our Products & Services</h3>
