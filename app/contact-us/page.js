@@ -10,9 +10,9 @@ const page = () => {
       <div className='flex sm:flex-row flex-col space-y-3 sm:space-y-0 sm:h-1/4 text-center sm:py-auto bg-rose-800 sm:justify-between'>
         <div className='text-white text-start mt-10 sm:mt-1/2 sm:my-auto sm:pl-14 px-3'>
         <h1 className='font-bold'>Contact Us</h1>
-        <h4 className='font-light text-sm sm:w-10/12'>
+        <h2 className='font-light text-sm sm:w-10/12'>
         Want to get in touch? We&apos;d love to hear from you. Here&apos;s how you can reach us.
-        </h4>
+        </h2>
         </div>
         <Image src='/toll.jpg' height={1200} width={1200} className='sm:rounded-s-full sm:rounded-t-none rounded-t-full sm:h-96 h-52 sm:w-1/2 relative' alt='manufacturing-comp'/>
       </div>
@@ -25,8 +25,8 @@ const page = () => {
                   <IoCall className='text-burgundy' size={25}/>
                 </div>
                 <div className='text-sm flex-col space-y-1 justify-center'>
-                  <div className='text-sm'>Phone Number</div>
-                  <div className='text-sm'>+1(917) 6094-597</div>
+                  <h3 className='text-sm'>Phone Number</h3>
+                  <h2 className='text-sm'>+1(917) 6094-597</h2>
                 </div>
               </div>
               <div className='bg-white flex py-4 px-2 space-x-4'>
@@ -34,8 +34,8 @@ const page = () => {
                   <MdEmail className='text-burgundy' size={25}/>
                 </div>
                 <div className='text-sm flex flex-col space-y-1 justify-center'>
-                  <div className='text-sm'>Email</div>
-                  <div className='text-sm'>info@zemy-group.com</div>
+                  <h3 className='text-sm'>Email</h3>
+                  <h2 className='text-sm'>info@zemy-group.com</h2>
                 </div>
               </div>
               <div className='bg-white flex py-4 px-2 space-x-4 '>
@@ -43,16 +43,16 @@ const page = () => {
                   <FaLocationDot className='text-burgundy' size={25}/>
                 </div>
                 <div className='text-sm  flex-col space-y-1 justify-center'>
-                  <div className='text-sm'>Location</div>
-                  <div className='text-sm'>USA,NewYork</div>
+                  <h3 className='text-sm'>Location</h3>
+                  <h2 className='text-sm'>USA,NewYork</h2>
                 </div>
               </div>
              
             </div>
             <div className='bg-white sm:w-4/5 flex-col mx-2 p-2 my-2 sm:px-8 sm:py-10 rounded-md'>
               <div>
-                <h2 className='text-3xl font-semibold'>Send Message</h2>
-                <div className='text-sm font-light'>Interested about our products and services.Get in touch with our team to learn more about ZEMY LLC</div>
+                <h3 className='text-3xl font-semibold'>Send Message</h3>
+                <h3 className='text-sm font-light'>Interested about our products and services.Get in touch with our team to learn more about ZEMY LLC</h3>
               </div>
               <form className='flex flex-col sm:space-y-6 space-y-4 my-2'>
                 <div className='flex sm:flex-row sm:space-x-1 space-y-4 sm:space-y-0 flex-col'>
