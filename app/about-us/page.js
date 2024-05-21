@@ -23,9 +23,9 @@ const page = () => {
           </div>
           <div>
           <div className='flex flex-col sm:space-y-1 font-normal'>
-              <div className='text-lg sm:tracking-wider'>Through our subsidiary companies, we expanded our reach into diverse industries, from furniture manufacturing to healthcare consulting, always guided by our commitment to excellence and sustainability.</div>
-              <div className='text-lg sm:tracking-wider'>As we grew, so did our impact. We became known not only for the quality of our products but also for our dedication to social responsibility and environmental conservation.</div>
-              <div className='text-lg sm:tracking-wider'>With a small team of dedicated individuals, our founder set out to build a company that would not only deliver high-quality products and services but also leave a positive impact on the world.</div>
+              <h3 className='text-lg sm:tracking-wider'>Through our subsidiary companies, we expanded our reach into diverse industries, from furniture manufacturing to healthcare consulting, always guided by our commitment to excellence and sustainability.</h3>
+              <h3 className='text-lg sm:tracking-wider'>As we grew, so did our impact. We became known not only for the quality of our products but also for our dedication to social responsibility and environmental conservation.</h3>
+              <h3 className='text-lg sm:tracking-wider'>With a small team of dedicated individuals, our founder set out to build a company that would not only deliver high-quality products and services but also leave a positive impact on the world.</h3>
             </div>
           </div>
         </div>
@@ -33,15 +33,15 @@ const page = () => {
         <div className='sm:mt-10 mt-5 w-full'>
           <div className='flex sm:flex-row flex-col sm:space-x-6'>
             <div className='flex flex-col sm:w-1/3 px-12'>
-              <h2 className='font-semibold mx-auto '>300+</h2>
+              <h3 className='font-semibold mx-auto '>300+</h3>
               <h2 className='text-sm font-light text-center block'>ZEMY LLC has grown from a team of 2 to over 300.</h2>
             </div>
             <div className='flex flex-col sm:w-1/3 px-12'>
-              <h2 className='font-semibold block mx-auto '>10</h2>
+              <h3 className='font-semibold block mx-auto '>10</h3>
               <h2 className='text-sm font-light text-center block'>ZEMY LLC stands tall as a beacon of quality and excellence. with 10 subsidary companies</h2>
             </div>
             <div className='flex flex-col sm:w-1/3 px-12'>
-              <h2 className='font-semibold mx-auto '>1000+</h2>
+              <h3 className='font-semibold mx-auto '>1000+</h3>
               <h2 className='text-sm font-light text-center block'>ZEMY LLC serves over 1000 consumers across various branches.</h2>
             </div>
           </div>
@@ -60,15 +60,15 @@ const page = () => {
             />
           </div>
           <div className='align-middle my-auto'>
-            <h1 className='text-xl sm:text-2xl font-extrabold text-blue-600'><span className='text-burgundy'>Our Mission:</span> Helping Millions Grow Better</h1>
-            <h2 className='text-base sm:leading-7 leading-6 sm:tracking-wider tracking-normal'>is to pioneer innovative solutions across diverse industries while upholding a steadfast commitment to sustainability, excellence, and social responsibility. Through our subsidiaries and strategic partnerships, we strive to</h2>
+            <h3 className='text-xl sm:text-2xl font-extrabold text-blue-600'><span className='text-burgundy'>Our Mission:</span> Helping Millions Grow Better</h3>
+            <h4 className='text-base sm:leading-7 leading-6 sm:tracking-wider tracking-normal'>is to pioneer innovative solutions across diverse industries while upholding a steadfast commitment to sustainability, excellence, and social responsibility. Through our subsidiaries and strategic partnerships, we strive to</h4>
           </div>
         </div>
 
         <div className='flex sm:flex-row flex-col-reverse sm:space-x-20 space-y-8 sm:w-3/4 mx-auto px-2 sm:justify-around sm:mt-20'>
         <div className='align-middle my-auto'>
-            <h1 className='text-2xl font-extrabold text-burgundy'>Our Story</h1>
-            <h2 className='text-base sm:leading-7 leading-6 sm:tracking-wider tracking-normal'>Driven by a deep-rooted belief in ethical business practices and environmental stewardship we bridge the gap between sustainable agriculture, pet wellness, healthcare, real estate, and beyond.</h2>
+            <h3 className='text-2xl font-extrabold text-burgundy'>Our Story</h3>
+            <h4 className='text-base sm:leading-7 leading-6 sm:tracking-wider tracking-normal'>Driven by a deep-rooted belief in ethical business practices and environmental stewardship we bridge the gap between sustainable agriculture, pet wellness, healthcare, real estate, and beyond.</h4>
           </div>
 
           <div>
@@ -96,9 +96,9 @@ const page = () => {
             alt=''
             className='mx-auto'
           />
-          <div className='text-2xl font-semibold'>
+          <h3 className='text-2xl font-semibold'>
             12 global Offices
-          </div>
+          </h3>
         </div>
 
         <div className='flex flex-col justify-center space-y-6 sm:p-7 p-4 bg-white rounded-md '>
@@ -109,9 +109,9 @@ const page = () => {
             alt=''
             className='mx-auto'
           />
-          <div className='text-2xl font-semibold'>
+          <h3 className='text-2xl font-semibold'>
             7,600+ Employees
-          </div>
+          </h3>
         </div>
 
         <div className='flex flex-col justify-center space-y-6 sm:p-7 p-4 bg-white rounded-md '>
@@ -122,9 +122,9 @@ const page = () => {
             alt=''
             className='mx-auto'
           />
-          <div className='text-2xl font-semibold'>
+          <h3 className='text-2xl font-semibold'>
             20,000+ Customers
-          </div>
+          </h3>
         </div>
 
         </div>
