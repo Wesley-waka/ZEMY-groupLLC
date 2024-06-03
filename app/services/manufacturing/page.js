@@ -82,7 +82,7 @@ const page = () => {
     <div className=" bg-burgundy text-white ">
       <div className="sm:p-28 p-5">
         <h3 className="sm:text-3xl text-xl font-extralight mb-6">Interested about Our Products & Services</h3>
-        <Link href='/contact-Us' className="mt-6 py-2 px-12 bg-blue-600 rounded-full hover:text-burgundy hover:border-blue-600 hover:bg-white hover:transition-all">Contact Us</Link>
+        <Link href='/contact-us' className="mt-6 py-2 px-12 bg-blue-600 rounded-full hover:text-burgundy hover:border-blue-600 hover:bg-white hover:transition-all">Contact Us</Link>
       </div>
     </div>
     {/* <div> */}
