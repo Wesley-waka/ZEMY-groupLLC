@@ -110,7 +110,7 @@ export default function Home() {
           <div>
             <h3 className='sm:text-start text-center font-light'>Pharmaceuticals & Health Products</h3>
             <p className='sm:text-start text-center font-extralight'>Sierra Global Health LLC embodies innovation in the generic pharma space, with a manufacturing presence spanning from the Czech Republic to India. Our commitment to quality positions us as a powerhouse ready to enhance North America&apos;s pharmaceutical landscape.</p>
-            <Link href='/services/manufacturing' className="transition-colors bg-burgundy text-white py-2 px-5 rounded-md hover:text-burgundy hover:border-burgundy hover:border-2 hover:bg-white">
+            <Link href='/services/pharmaceuticals' className="transition-colors bg-burgundy text-white py-2 px-5 rounded-md hover:text-burgundy hover:border-burgundy hover:border-2 hover:bg-white">
               Learn More
             </Link>
           </div>
@@ -132,7 +132,7 @@ export default function Home() {
           <div>
             <h3 className='sm:text-start text-center font-light'>Real Estate Initiatives</h3>
             <p className='sm:text-start text-center font-extralight'>Unite the comfort of home with the pulse of industry through Mysha Khan LLC and Zeake Khan LLC, where we expertly secure and manage residential investments to prosper your sanctuary,  ensuring growth and stability for our discerning clientele</p>
-            <Link href='/services/manufacturing' className="bg-burgundy transition-colors text-white py-2 px-5 w-full rounded-md hover:text-burgundy hover:border-burgundy hover:border-2 hover:bg-white">
+            <Link href='/services/real-estate' className="bg-burgundy transition-colors text-white py-2 px-5 w-full rounded-md hover:text-burgundy hover:border-burgundy hover:border-2 hover:bg-white">
               Learn More
             </Link>
           </div>
