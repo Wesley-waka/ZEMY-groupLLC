@@ -89,9 +89,9 @@ export default function Home() {
           <div>
             <h3 className='sm:text-start text-center font-light'>Manufacturing</h3>
             <p className='sm:text-start text-center font-extralight'>Our company takes pride in sustainably sourcing the highest quality ingredients in Kenya, expertly crafting premium bully sticks, and ensuring reliable, timely supply to our loyal customers throughout the United States</p>
-            <Link href='/services/manufacturing' className="bg-burgundy text-white py-2 px-5 rounded-md hover:text-burgundy hover:border-burgundy hover:border-2 hover:bg-white transition-colors">
-              Learn More
-            </Link>
+            <Link href='https://www.elitetreatforpets.com' className="bg-burgundy text-white py-2 px-5 rounded-md hover:text-burgundy hover:border-burgundy hover:border-2 hover:bg-white transition-colors">
+  Learn More
+</Link>
           </div>
                 </div>
               </div>
