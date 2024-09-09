@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <div style={navbarStyle} className='top-0 flex justify-between sm:px-20 px-6 sm:py-5 py-2 bg-gray-100 bg-opacity-80  fixed w-full mt-0 sm:align-middle z-20'>
         <Link href='/'>
-            <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='sm:h-10 sm:w-20 h-8 w-10 left-5 absolute'/>
+            <Image src='/logo.png' alt='zemy-logo' width={100} height={200} className='sm:h-10 sm:w-20 h-8 w-[4.5rem] left-5 absolute'/>
         </Link>
         <div className="sm:flex space-x-10 text-burgundy hidden">
             <Link href='/'>Home</Link>
