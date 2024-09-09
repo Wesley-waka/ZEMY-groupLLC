@@ -92,7 +92,7 @@ export default function Home() {
               </div>
               <h1 class="text-3xl font-medium mx-auto my-8 text-center">Subsidary Companies</h1>
 
-              <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
+              <div class="mt-4 grid px-[30px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
                 <div class="max-w-xs flex flex-col bg-white border border-t-4 border-t-blue-600 shadow-sm rounded-xl dark:bg-neutral-50 dark:border-neutral-300 dark:border-t-blue-500 dark:shadow-neutral-700/70">
                   <div class="p-4 md:p-5">
                     <Image src="/logoP.png" height={100} width={100} />
